@@ -49,7 +49,7 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Description, name: descr, widget: text }
               - { label: Image, name: image, widget: image }
-      - file: "static/site/data.md"
+      - file: "static/data/site/data.md"
         name: data
         label: Contact Data
         fields:
@@ -70,7 +70,7 @@ collections:
 
   - name: "blog"
     label: "Blog"
-    folder: "static/pages/blog"
+    folder: "static/data/pages/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -91,7 +91,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "static/pages/index.md"
+      - file: "static/data/pages/index.md"
         label: "Landing Page"
         name: "index"
         fields:
@@ -176,7 +176,7 @@ collections:
                   },
                 ],
             }
-      - file: "static/pages/about/index.md"
+      - file: "static/data/pages/about/index.md"
         label: "About"
         name: "about"
         fields:
@@ -188,7 +188,7 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-      - file: "static/pages/products/index.md"
+      - file: "static/data/pages/products/index.md"
         label: "Products Page"
         name: "products"
         fields:
