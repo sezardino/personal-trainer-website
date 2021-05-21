@@ -18,14 +18,14 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/src/site`,
+        path: `${__dirname}/static/data/site`,
         name: "site",
       },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/src/pages`,
+        path: `${__dirname}/static/data/pages`,
         name: "pages",
       },
     },
