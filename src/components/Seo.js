@@ -4,7 +4,7 @@ import useMeta from "./hooks/useMeta";
 
 const Seo = (props) => {
   const data = useMeta();
-  const title = props.title ? title | data.title : data.title;
+  const title = props.title ? props.title | data.title : data.title;
   return (
     <Helmet>
       <html lang={data.description} />

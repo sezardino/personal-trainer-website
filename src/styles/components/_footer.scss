@@ -1,0 +1,29 @@
+.footer {
+  padding: 40px 0;
+
+  background-color: rgb(114, 106, 106);
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    @include breakpoint-up("md") {
+      flex-direction: row;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint-up('md') {
+      align-items: flex-end
+    }
+  }
+
+  &__social {
+    margin-top: 20px;
+  }
+}
