@@ -90,10 +90,6 @@ $black: #2b2523;
 .navbar-brand .navbar-item.logo {
   padding: 0 1rem;
 }
-footer.footer {
-  padding: 3rem 0rem 0rem;
-  background-color: transparent;
-}
 
 //Menu overrides
 $menu-item-color: $white-ter;
@@ -112,19 +108,19 @@ $menu-label-color: $white-ter;
   list-style: none !important;
   text-align: left;
 }
-.social {
-  padding: 2em;
-}
-.social a {
-  padding: 0.5em 0.5em 0.3em 0.5em;
-  border-radius: 1em;
-  background-color: $white-ter;
-  margin: 0.5em;
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
-  display: inline;
-}
+// .social {
+//   padding: 2em;
+// }
+// .social a {
+//   padding: 0.5em 0.5em 0.3em 0.5em;
+//   border-radius: 1em;
+//   background-color: $white-ter;
+//   margin: 0.5em;
+//   width: 1em;
+//   height: 1em;
+//   vertical-align: middle;
+//   display: inline;
+// }
 
 // blog roll
 .blog-list-item.is-featured {

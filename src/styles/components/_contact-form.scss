@@ -1,0 +1,11 @@
+.contact-form {
+    &__input {
+    }
+    &__textarea {
+        resize: none;
+    }
+
+    &__field:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
