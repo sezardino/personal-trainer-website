@@ -1,0 +1,25 @@
+.contact {
+    &__title {
+    }
+
+    &__text {
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        @include breakpoint-up("lg") {
+            flex-direction: row;
+        }
+    }
+
+    &__contact-data {
+    }
+    &__social {
+    }
+
+    &__form {
+    }
+}
