@@ -7,12 +7,12 @@ import Seo from "./Seo";
 
 const TemplateWrapper = ({ children, title }) => {
     return (
-        <div>
+        <>
             <Seo title={title} />
             <Navbar />
             <div>{children}</div>
             <Footer />
-        </div>
+        </>
     );
 };
 
