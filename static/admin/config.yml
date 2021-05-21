@@ -9,6 +9,7 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
 
@@ -17,7 +18,7 @@ collections:
     label: "Site Data"
     create: false
     files:
-      - file: "src/site/meta.md"
+      - file: "static/site/meta.md"
         name: "meta"
         label: "Meta Data"
         fields:
@@ -48,9 +49,9 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Description, name: descr, widget: text }
               - { label: Image, name: image, widget: image }
-      - file: "src/site/data.md"
+      - file: "static/site/data.md"
         name: data
-        label: Data
+        label: Contact Data
         fields:
           - { label: Logo, name: logo, widget: image }
           - label: Contact
@@ -69,7 +70,7 @@ collections:
 
   - name: "blog"
     label: "Blog"
-    folder: "src/pages/blog"
+    folder: "static/pages/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -90,7 +91,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/index.md"
+      - file: "static/pages/index.md"
         label: "Landing Page"
         name: "index"
         fields:
@@ -175,7 +176,7 @@ collections:
                   },
                 ],
             }
-      - file: "src/pages/about/index.md"
+      - file: "static/pages/about/index.md"
         label: "About"
         name: "about"
         fields:
@@ -187,7 +188,7 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-      - file: "src/pages/products/index.md"
+      - file: "static/pages/products/index.md"
         label: "Products Page"
         name: "products"
         fields:
