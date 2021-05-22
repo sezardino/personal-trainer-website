@@ -1,11 +1,11 @@
 ---
 templateKey: index-page
-title: Robert Arechwa Personal Trainer wwwwww
+title: Robert Arechwa
 image: /img/luis-vidal-fodesanzs48-unsplash.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Hej
+subheading: Certyficowany trener personalny
 mainpitch:
-  title: Why Kaldi
+  title: Czemu tym się zająłem?
   description: >
     Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
