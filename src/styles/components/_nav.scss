@@ -1,22 +1,58 @@
 .nav {
+  color: white;
   &__list {
     display: flex;
     flex-direction: column;
 
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 400;
 
-    @include breakpoint-up("md") {
+    @include breakpoint-up("lg") {
       flex-direction: row;
     }
   }
 
   &__item {
     &:not(&:last-child) {
-      margin-right: 15px;
+      margin-bottom: 10px;
+      @include breakpoint-up("lg") {
+        margin-right: 25px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__link {
+    &:hover,
+    &:active,
+    &:focus {
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
+}
+
+.nav--header {
+  .nav {
+    &__list {
+      text-align: center;
     }
   }
 }
 
 .nav--footer {
-  color: white;
+  .nav {
+    &__list {
+      @include breakpoint-up("md") {
+        flex-direction: row;
+      }
+    }
+    &__item {
+      &:not(:last-child) {
+        @include breakpoint-up("md") {
+          margin-right: 25px;
+        }
+      }
+    }
+  }
 }
