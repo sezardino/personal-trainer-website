@@ -1,11 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import Features from "../components/Features";
+import Testimonials from "../components/Testimonials";
+import Pricing from "../components/Pricing";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const ProductPageTemplate = ({
   image,
@@ -30,10 +30,10 @@ export const ProductPageTemplate = ({
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-          backgroundColor: '#f40',
-          color: 'white',
-          padding: '1rem',
+          boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
+          backgroundColor: "#f40",
+          color: "white",
+          padding: "1rem",
         }}
       >
         {title}
@@ -64,18 +64,24 @@ export const ProductPageTemplate = ({
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image1} />
+                        {main.image1 && (
+                          <PreviewCompatibleImage imageInfo={main.image1} />
+                        )}
                       </article>
                     </div>
                     <div className="tile is-parent">
                       <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image2} />
+                        {main.image2 && (
+                          <PreviewCompatibleImage imageInfo={main.image2} />
+                        )}
                       </article>
                     </div>
                   </div>
                   <div className="tile is-parent">
                     <article className="tile is-child">
-                      <PreviewCompatibleImage imageInfo={main.image3} />
+                      {main.image3 && (
+                        <PreviewCompatibleImage imageInfo={main.image3} />
+                      )}
                     </article>
                   </div>
                 </div>
@@ -83,13 +89,15 @@ export const ProductPageTemplate = ({
               <Testimonials testimonials={testimonials} />
               <div
                 className="full-width-image-container"
-                style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                }}
+                style={
+                  fullImage && {
+                    backgroundImage: `url(${
+                      fullImage.childImageSharp
+                        ? fullImage.childImageSharp.fluid.src
+                        : fullImage
+                    })`,
+                  }
+                }
               />
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
@@ -102,7 +110,7 @@ export const ProductPageTemplate = ({
       </div>
     </section>
   </div>
-)
+);
 
 ProductPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -126,10 +134,10 @@ ProductPageTemplate.propTypes = {
     description: PropTypes.string,
     plans: PropTypes.array,
   }),
-}
+};
 
-const ProductPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+const ProductPage = (props) => {
+  const { frontmatter } = props.data.markdownRemark;
 
   return (
     <Layout>
@@ -145,8 +153,8 @@ const ProductPage = ({ data }) => {
         pricing={frontmatter.pricing}
       />
     </Layout>
-  )
-}
+  );
+};
 
 ProductPage.propTypes = {
   data: PropTypes.shape({
@@ -154,21 +162,26 @@ ProductPage.propTypes = {
       frontmatter: PropTypes.object,
     }),
   }),
-}
+};
 
-export default ProductPage
+export default ProductPage;
 
 export const productPageQuery = graphql`
   query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
-
+        image {
+          childImageSharp {
+            fluid {
+              src
+            }
+          }
+        }
         heading
         description
         intro {
           blurbs {
-
             text
           }
           heading
@@ -195,4 +208,4 @@ export const productPageQuery = graphql`
       }
     }
   }
-`
+`;
