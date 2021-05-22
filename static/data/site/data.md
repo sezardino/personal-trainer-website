@@ -13,7 +13,4 @@ contact:
     - name: Instagram
       link: "#inst"
       icon: /img/instagram.svg
-    - name: Vimeo
-      link: "#vimeo"
-      icon: /img/vimeo.svg
 ---
