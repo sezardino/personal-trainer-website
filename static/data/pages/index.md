@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Robert Arechwa Personal Trainer wwwwww
-image: /img/danielle-cerullo-cqfnt66ttzm-unsplash.jpg
+image: /img/luis-vidal-fodesanzs48-unsplash.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
