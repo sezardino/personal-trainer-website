@@ -1,19 +1,19 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import "./all.scss";
 import "../styles/main.scss";
 import Seo from "./Seo";
+import Header from "./header";
 
 const TemplateWrapper = ({ children, title }) => {
-    return (
-        <>
-            <Seo title={title} />
-            <Navbar />
-            <div>{children}</div>
-            <Footer />
-        </>
-    );
+  return (
+    <div>
+      <Seo title={title} />
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </div>
+  );
 };
 
 export default TemplateWrapper;

@@ -1,7 +1,7 @@
 .footer {
   padding: 40px 0;
 
-  background-color: rgb(114, 106, 106);
+  background-color: black;
 
   &__container {
     display: flex;
@@ -18,8 +18,8 @@
     display: flex;
     flex-direction: column;
 
-    @include breakpoint-up('md') {
-      align-items: flex-end
+    @include breakpoint-up("md") {
+      align-items: flex-end;
     }
   }
 
