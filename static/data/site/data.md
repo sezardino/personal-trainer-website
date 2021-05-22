@@ -1,5 +1,5 @@
 ---
-logo: /img/free-icon-barbell-2324537.svg
+logo: /img/logo.svg
 contact:
   tel: "+111111111"
   mail: test@gmail.com
