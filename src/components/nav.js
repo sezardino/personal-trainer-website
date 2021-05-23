@@ -4,7 +4,6 @@ import Tel from "./tel";
 
 const Nav = (props) => {
   const { extraClass } = props;
-  console.log(extraClass === "header");
 
   return (
     <nav className={`nav ${extraClass && `nav--${extraClass}`}`}>

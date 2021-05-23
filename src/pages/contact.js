@@ -16,12 +16,10 @@ const Contact = ({ data }) => {
   const [formData, setFormData] = useState({});
 
   const fields = data.markdownRemark.frontmatter.contact;
-  console.log(fields);
 
   const changeHandler = (evt) => {
     const target = evt.target;
     setFormData({ ...formData, [target.name]: target.value });
-    console.log(formData);
   };
 
   const submitHandler = (evt) => {
