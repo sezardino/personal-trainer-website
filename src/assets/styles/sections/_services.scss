@@ -8,6 +8,9 @@
     padding: 250px 0;
     width: 90%;
   }
+  @include breakpoint-up("fhd") {
+    width: 95%;
+  }
 
   &__container {
   }
