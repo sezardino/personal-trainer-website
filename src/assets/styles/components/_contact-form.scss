@@ -1,11 +1,42 @@
 .contact-form {
-    &__input {
-    }
-    &__textarea {
-        resize: none;
-    }
+  padding-bottom: 80px;
+  &__label {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.07rem;
 
-    &__field:not(:last-child) {
-        margin-bottom: 20px;
-    }
+    color: var(--main-fc);
+
+    margin-bottom: 10px;
+  }
+
+  &__input,
+  &__textarea {
+    width: 100%;
+    font-size: 1.9rem;
+
+    padding: 12px;
+
+    border: 0.01px solid var(--fourth-fc);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  &__input {
+  }
+  &__textarea {
+    resize: none;
+    min-height: 230px;
+  }
+
+  &__field:not(:last-of-type) {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  &__button {
+    margin-top: 65px;
+  }
 }

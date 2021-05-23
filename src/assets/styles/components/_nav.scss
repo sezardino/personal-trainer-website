@@ -70,8 +70,8 @@
   color: var(--second-fc);
   .nav {
     &__list {
+      flex-direction: row;
       @include breakpoint-up("md") {
-        flex-direction: row;
       }
     }
     &__item {

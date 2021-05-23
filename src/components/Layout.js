@@ -7,12 +7,12 @@ import Header from "./header";
 
 const TemplateWrapper = ({ children, title }) => {
   return (
-    <div>
+    <>
       <Seo title={title} />
       <Header />
       <main>{children}</main>
       <Footer />
-    </div>
+    </>
   );
 };
 
