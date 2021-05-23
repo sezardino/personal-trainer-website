@@ -1,5 +1,5 @@
 ---
-logo: /img/logo.svg
+logo: /img/group-155.svg
 contact:
   tel: "+111111111"
   mail: test@gmail.com
