@@ -1,0 +1,26 @@
+.social {
+    max-width: 215px;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    width: 100%;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  &__link {
+    padding: 10px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  &__link-icon {
+    max-width: 18px;
+    width: 100%;
+  }
+}
