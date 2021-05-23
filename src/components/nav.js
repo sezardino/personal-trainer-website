@@ -1,25 +1,27 @@
-import { Link } from "gatsby";
 import React from "react";
+import { Link } from "gatsby";
+import Tel from "./tel";
 
 const Nav = (props) => {
   const { extraClass } = props;
+  console.log(extraClass === "header");
 
   return (
     <nav className={`nav ${extraClass && `nav--${extraClass}`}`}>
       <ul className="nav__list">
         <li className="nav__item">
           <Link to="/" className="nav__link">
-            Home
+            Strona główna
           </Link>
         </li>
         <li className="nav__item">
           <Link to="/about" className="nav__link">
-            About
+            O mnie
           </Link>
         </li>
         <li className="nav__item">
           <Link to="/products" className="nav__link">
-            Products
+            Oferta
           </Link>
         </li>
         <li className="nav__item">
@@ -29,10 +31,11 @@ const Nav = (props) => {
         </li>
         <li className="nav__item">
           <Link to="/contact" className="nav__link">
-            Contact
+            Kontakt
           </Link>
         </li>
       </ul>
+      {extraClass === "header" && <Tel />}
     </nav>
   );
 };

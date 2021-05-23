@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../img/logo.svg";
+import Logo from "./logo";
 import Social from "./social";
 import Nav from "./nav";
 
@@ -10,11 +10,7 @@ const Footer = class extends React.Component {
       <footer className="footer">
         <div className="container footer__container">
           <div className="footer__logo">
-            <img
-              src={logo}
-              alt="Kaldi"
-              style={{ width: "14em", height: "10em" }}
-            />
+            <Logo />
           </div>
           <div className="footer__wrapper">
             <div className="footer__nav">
