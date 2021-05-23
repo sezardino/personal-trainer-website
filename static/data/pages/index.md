@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Robert Arechwa
-image: /img/luis-vidal-fodesanzs48-unsplash.jpg
+image: /img/attented-young-muscular-caucasian-athlete-practicing-in-gym-with-the-weights-male-model-doing-strength-exercises-training-his-upper-body-wellness-healthy-lifestyle-bodybuilding-concept-1.jpg
 heading: Hej
 subheading: Certyficowany trener personalny
 mainpitch:
