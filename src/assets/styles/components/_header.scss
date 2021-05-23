@@ -1,12 +1,16 @@
 .header {
-  padding: 20px 0;
-  background-color: black;
+  padding: 25px 0;
+  background-color: var(--main-color);
 
   &__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @include breakpoint-up("lg") {
+      flex-wrap: initial;
+    }
   }
 
   &__logo {
@@ -18,10 +22,11 @@
     overflow: hidden;
     transition: 86ms height ease-out;
     @include breakpoint-up("lg") {
-      width: initial;
       height: initial;
       overflow: initial;
       transition: initial;
+
+      margin-left: 100px;
     }
 
     &--open {

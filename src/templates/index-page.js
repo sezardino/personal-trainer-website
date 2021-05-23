@@ -6,6 +6,11 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 
+import Hero from "../components/hero";
+import About from "../components/about";
+import Services from "../components/services";
+import Blog from "../components/blog";
+
 export const IndexPageTemplate = ({
   title,
   heading,
@@ -15,8 +20,10 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
-    <div
+  <>
+    <Hero image={image} />
+
+    {/* <div
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
@@ -64,7 +71,10 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
-    <section className="section section--gradient">
+     */}
+
+    <About />
+    {/* <section className="section section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
@@ -110,8 +120,11 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </section> */}
+
+    <Services />
+    <Blog />
+  </>
 );
 
 IndexPageTemplate.propTypes = {
@@ -128,7 +141,6 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-  console.log(frontmatter.image);
   return (
     <Layout>
       <IndexPageTemplate

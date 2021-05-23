@@ -1,7 +1,7 @@
 .footer {
   padding: 40px 0;
 
-  background-color: black;
+  background-color: var(--fourth-color);
 
   &__container {
     display: flex;
@@ -23,7 +23,11 @@
     }
   }
 
-  &__social {
+  &__nav {
     margin-top: 20px;
+  }
+
+  &__social {
+    margin-top: 10px;
   }
 }

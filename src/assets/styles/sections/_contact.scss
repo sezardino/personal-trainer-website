@@ -1,0 +1,111 @@
+.contact {
+  padding-top: 80px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    @include breakpoint-up("lg") {
+      flex-direction: row;
+    }
+  }
+
+  &__title {
+    margin: 0;
+
+    font-size: 6.3rem;
+    line-height: 7.6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: var(--third-fc);
+  }
+
+  &__text {
+    margin-bottom: 54px;
+
+    font-weight: 200;
+    font-size: 2.1rem;
+    line-height: 3.4rem;
+
+    letter-spacing: 0.05rem;
+
+    color: var(--main-fc);
+  }
+
+  &__wrapper {
+    max-width: 700px;
+    @include breakpoint-up('xxl') {
+      max-width: 900px;
+    }
+  }
+
+  &__social {
+    margin-top: 40px;
+  }
+
+  &__form {
+    width: 100%;
+    padding-bottom: 300px;
+    @include breakpoint-up("sm") {
+      order: 1;
+    }
+    @include breakpoint-up('lg') {
+      padding-bottom: 0;
+    }
+  }
+
+  &__data {
+    background-color: var(--third-color);
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    @include breakpoint-up("lg") {
+      max-width: 450px;
+
+      position: initial;
+
+      margin-left: 40px;
+    }
+
+    @include breakpoint-up('fhd') {
+      max-width: 550px;
+
+      margin-left: 0;
+    }
+  }
+
+  &__contact-data {
+    margin-top: 20px;
+  }
+
+  &__field {
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 3.7rem;
+    color: var(--second-fc);
+    letter-spacing: 0.05rem;
+
+    text-align: center;
+  }
+
+  &__info {
+    margin-left: 10px;
+
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}

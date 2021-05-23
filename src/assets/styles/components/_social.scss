@@ -1,0 +1,40 @@
+.social {
+  max-width: 250px;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    width: 100%;
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+
+  &__link {
+    padding: 10px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  &__link-icon {
+    width: 25px;
+  }
+}
+
+.social--hero {
+  .social__list {
+    flex-direction: column;
+    @include breakpoint-up("md") {
+      flex-direction: row;
+    }
+  }
+  .social__item {
+    margin-right: 0;
+    @include breakpoint-up('md') {
+      margin-right: 40px;
+    }
+  }
+}

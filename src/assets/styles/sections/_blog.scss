@@ -1,0 +1,52 @@
+.blog {
+  padding: 100px 0;
+
+  @include breakpoint-up("lg") {
+    padding: 200px 0;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    text-transform: uppercase;
+
+    font-size: 3rem;
+    line-height: 4.1rem;
+    letter-spacing: 0.5rem;
+    font-weight: 400;
+
+    color: var(--third-fc);
+
+    @include breakpoint-up("lg") {
+      font-size: 5rem;
+      line-height: 6.1rem;
+      letter-spacing: 0.5rem;
+    }
+  }
+
+  &__list {
+    margin-top: 45px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @include breakpoint-up("lg") {
+      margin-top: 90px;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 20px;
+    }
+  }
+
+  &__item {
+  }
+
+  &__button {
+    margin-top: 100px;
+    margin-left: auto;
+  }
+}

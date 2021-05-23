@@ -8,12 +8,12 @@
   &:hover,
   &:focus,
   &:active {
-    background-color: gray;
+    background-color: var(--third-color);
     border-radius: 10px;
   }
 
   &__line {
-    background-color: white;
+    background-color: var(--second-color);
     display: block;
     height: 1px;
     left: calc(50% - 8px);
