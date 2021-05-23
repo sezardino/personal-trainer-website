@@ -9,6 +9,7 @@ import BlogRoll from "../components/BlogRoll";
 import Hero from "../components/hero";
 import About from "../components/about";
 import Services from "../components/services";
+import Blog from "../components/blog";
 
 export const IndexPageTemplate = ({
   title,
@@ -122,6 +123,7 @@ export const IndexPageTemplate = ({
     </section> */}
 
     <Services />
+    <Blog />
   </>
 );
 

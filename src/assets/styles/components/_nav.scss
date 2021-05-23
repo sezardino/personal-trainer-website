@@ -67,6 +67,7 @@
 }
 
 .nav--footer {
+  color: var(--second-fc);
   .nav {
     &__list {
       @include breakpoint-up("md") {
