@@ -7,6 +7,7 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 
 import Hero from "../components/hero";
+import About from "../components/about";
 
 export const IndexPageTemplate = ({
   title,
@@ -69,7 +70,9 @@ export const IndexPageTemplate = ({
       </div>
     </div>
      */}
-    <section className="section section--gradient">
+
+    <About />
+    {/* <section className="section section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
@@ -115,7 +118,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
   </>
 );
 
