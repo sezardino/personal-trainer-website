@@ -19,11 +19,11 @@ const query = graphql`
   }
 `;
 
-const Social = () => {
+const Social = ({ extraClass }) => {
   const data = useStaticQuery(query);
   const fields = data.markdownRemark.frontmatter.contact;
   return (
-    <div className="social">
+    <div className={`social ${extraClass && "social--" + extraClass}`}>
       <ul className="social__list">
         {fields.social.map((item) => (
           <li className="social__item" key={item.name}>

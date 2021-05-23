@@ -20,7 +20,7 @@ const Hero = ({ image }) => {
           </span>
         </h1>
         <div className="hero__social">
-          <Social />
+          <Social extraClass="hero"/>
         </div>
       </div>
     </section>
