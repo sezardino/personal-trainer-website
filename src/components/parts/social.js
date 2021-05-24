@@ -1,4 +1,4 @@
-import { graphql, Link, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 
 import instagram from "../../assets/img/inst.svg";
@@ -34,18 +34,14 @@ const Social = ({ extraClass }) => {
             <ul className="social__list">
                 {social.map(([name, link], index) => (
                     <li className="social__item" key={name + index}>
-                        <Link
-                            href={link}
-                            className="social__link"
-                            target="blank"
-                        >
+                        <a href={link} className="social__link" target="blank">
                             <img
                                 className="social__link-icon"
                                 src={SOCIAL_ICONS[name]}
                                 alt={name + " icon"}
                             />
                             <span className="hidden">{name}</span>
-                        </Link>
+                        </a>
                     </li>
                 ))}
             </ul>
