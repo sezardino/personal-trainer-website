@@ -1,6 +1,6 @@
 ---
 logo: /img/group-155.svg
-contact-data:
+contactData:
     tel: +48 576 048 664
     mail: robert.arechwa@gmail.com
     facebook: https://facebook.com
