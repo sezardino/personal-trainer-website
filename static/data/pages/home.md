@@ -1,4 +1,5 @@
 ---
+templateKey: index-page
 seo:
   title: Robert Arechwa, trener personalny
   image: /img/og.jpg
