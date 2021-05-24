@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import useMeta from "./hooks/useMeta";
+import useMeta from "../hooks/useMeta";
 
 const Seo = (props) => {
   const data = useMeta();
