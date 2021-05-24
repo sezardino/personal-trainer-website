@@ -1,45 +1,56 @@
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, Link, useStaticQuery } from "gatsby";
 import React from "react";
 
+import instagram from "../assets/img/inst.svg";
+import facebook from "../assets/img/f.svg";
+import vk from "../assets/img/vk.svg";
+
+const SOCIAL_ICONS = {
+    instagram,
+    facebook,
+    vk,
+};
+
 const query = graphql`
-  {
-    markdownRemark(fileAbsolutePath: { regex: "/data.md/" }) {
-      frontmatter {
-        contact {
-          social {
-            link
-            name
-            icon {
-              publicURL
+    {
+        markdownRemark(fileAbsolutePath: { regex: "/common-data.md/" }) {
+            frontmatter {
+                contactData {
+                    facebook
+                    instagram
+                    vk
+                }
             }
-          }
         }
-      }
     }
-  }
 `;
 
 const Social = ({ extraClass }) => {
-  const data = useStaticQuery(query);
-  const fields = data.markdownRemark.frontmatter.contact;
-  return (
-    <div className={`social ${extraClass && "social--" + extraClass}`}>
-      <ul className="social__list">
-        {fields.social.map((item) => (
-          <li className="social__item" key={item.name}>
-            <a href={item.link} className="social__link">
-              <img
-                className="social__link-icon"
-                src={item.icon.publicURL}
-                alt={item.name + " icon"}
-              />
-              <span className="hidden">{item.name}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+    const data = useStaticQuery(query);
+    const contactData = data.markdownRemark.frontmatter.contactData;
+    const social = Object.entries(contactData);
+    return (
+        <div className={`social ${extraClass && "social--" + extraClass}`}>
+            <ul className="social__list">
+                {social.map(([name, link], index) => (
+                    <li className="social__item" key={name + index}>
+                        <Link
+                            href={link}
+                            className="social__link"
+                            target="blank"
+                        >
+                            <img
+                                className="social__link-icon"
+                                src={SOCIAL_ICONS[name]}
+                                alt={name + " icon"}
+                            />
+                            <span className="hidden">{name}</span>
+                        </Link>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
 };
 
 export default Social;

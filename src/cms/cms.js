@@ -19,24 +19,23 @@ import site from "./fields/site";
 // CMS.registerPreviewTemplate('blog', BlogPostPreview)
 
 CMS.init({
-  config: {
-    load_config_file: false,
-    backend: {
-      name: "test-repo",
-      branch: "master",
-      repo: "sezardino/personal-trainer-website",
+    config: {
+        load_config_file: false,
+        backend: {
+            name: "github",
+            branch: "master",
+            repo: "sezardino/personal-trainer-website",
+        },
+        commit_messages: {
+            create: "Create {{collection}} “{{slug}}”",
+            update: "Update {{collection}} “{{slug}}”",
+            delete: "Delete {{collection}} “{{slug}}”",
+            uploadMedia: "[skip ci] Upload “{{path}}”",
+            deleteMedia: "[skip ci] Delete “{{path}}”",
+        },
+        publish_mode: "editorial_workflow",
+        media_folder: "static/img",
+        public_folder: "/img",
+        collections: [site, pages, posts],
     },
-    commit_messages: {
-      create: "Create {{collection}} “{{slug}}”",
-      update: "Update {{collection}} “{{slug}}”",
-      delete: "Delete {{collection}} “{{slug}}”",
-      uploadMedia: "[skip ci] Upload “{{path}}”",
-      deleteMedia: "[skip ci] Delete “{{path}}”",
-    },
-    publish_mode: "editorial_workflow",
-    media_folder: "static/img",
-    public_folder: "/img",
-    collections: [site, pages, posts],
-    // collections: [site, pages, works, collections],
-  },
 });

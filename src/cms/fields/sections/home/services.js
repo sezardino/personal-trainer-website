@@ -1,6 +1,6 @@
 const services = {
   label: "Services section",
-  name: "home-services",
+  name: "homeServices",
   widget: "object",
   collapsed: true,
   fields: [

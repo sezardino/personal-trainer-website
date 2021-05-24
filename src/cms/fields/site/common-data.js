@@ -4,12 +4,12 @@ const commonData = {
     preview: false,
   },
   label: "Common Data",
-  name: "common-data",
+  name: "commonData",
   fields: [
     { label: "Logotype", name: "logo", widget: "image", required: false },
     {
       label: "Contact Data",
-      name: "contact-data",
+      name: "contactData",
       widget: "object",
       required: false,
       fields: [

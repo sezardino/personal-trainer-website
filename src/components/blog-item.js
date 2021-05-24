@@ -12,7 +12,7 @@ const BlogItem = () => {
         </h3>
         <p className="blog-item__time">
           <span className="hidden">data publikacji wpisu</span>
-          <time datetime="2001-05-15 19:00">15.04.2021</time>
+          <time dateTime="2001-05-15 19:00">15.04.2021</time>
         </p>
         <p className="blog-item__excerpt">
           Lorem Ipsum is simply dummy text of the printing and typesetting

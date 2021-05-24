@@ -1,6 +1,6 @@
 const about = {
   label: "About Section",
-  name: "home-about",
+  name: "homeAbout",
   widget: "object",
   collapsed: true,
   fields: [
