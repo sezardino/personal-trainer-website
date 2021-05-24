@@ -38,7 +38,7 @@ const IndexPage = ({ data }) => {
 export default IndexPage;
 
 export const pageQuery = graphql`
-    query IndexPageTemplate {
+    query {
         markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
             frontmatter {
                 seo {
