@@ -13,13 +13,13 @@ const products = {
             default: "product-page",
         },
         seo,
-        {
-            label: "Sections",
-            name: "sections",
-            widget: "object",
-            required: false,
-            fields: productSections,
-        },
+        // {
+        //     label: "Sections",
+        //     name: "sections",
+        //     widget: "object",
+        //     required: false,
+        //     fields: productSections,
+        // },
     ],
 };
 

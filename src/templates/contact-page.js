@@ -4,22 +4,25 @@ import Layout from "../components/Layout";
 import ContactPage from "../components/pages/Contact";
 
 const Contact = ({ data }) => {
-    const fields = data.markdownRemark.frontmatter.contactData;
+    // const fields = data.markdownRemark.frontmatter.contactData;
+    const seo = data.markdownRemark.frontmatter.seo;
     return (
-        <Layout>
-            {" "}
-            <ContactPage data={fields} />{" "}
+        <Layout seo={seo}>
+            <ContactPage />{" "}
         </Layout>
     );
 };
 
 const query = graphql`
     {
-        markdownRemark(fileAbsolutePath: { regex: "/common-data.md/" }) {
+        markdownRemark(fileAbsolutePath: { regex: "/contact.md/" }) {
             frontmatter {
-                contactData {
-                    mail
-                    tel
+                seo {
+                    description
+                    title
+                    image {
+                        publicURL
+                    }
                 }
             }
         }

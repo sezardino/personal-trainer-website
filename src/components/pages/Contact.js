@@ -1,9 +1,11 @@
 import React from "react";
+import useCommon from "../hooks/useCommon";
 
 import ContactForm from "../parts/contact-form";
 import Social from "../parts/social";
 
-const ContactPage = ({ data }) => {
+const ContactPage = () => {
+    const data = useCommon();
     return (
         <section className="contact">
             <div className="container contact__container">

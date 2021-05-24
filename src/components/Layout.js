@@ -4,15 +4,15 @@ import "../assets/styles/main.scss";
 import Seo from "./parts/seo";
 import Header from "./parts/header";
 
-const TemplateWrapper = ({ children, title }) => {
-  return (
-    <>
-      <Seo title={title} />
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </>
-  );
+const Layout = ({ children, seo }) => {
+    return (
+        <>
+            <Seo data={seo} />
+            <Header />
+            <main>{children}</main>
+            <Footer />
+        </>
+    );
 };
 
-export default TemplateWrapper;
+export default Layout;
