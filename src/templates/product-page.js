@@ -140,7 +140,7 @@ const ProductPage = (props) => {
   const { frontmatter } = props.data.markdownRemark;
 
   return (
-    <Layout>
+    // <Layout>
       <ProductPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
@@ -152,7 +152,7 @@ const ProductPage = (props) => {
         fullImage={frontmatter.full_image}
         pricing={frontmatter.pricing}
       />
-    </Layout>
+    /* </Layout> */
   );
 };
 

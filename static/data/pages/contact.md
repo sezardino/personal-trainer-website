@@ -1,7 +1,7 @@
 ---
 templateKey: contact-page
 seo:
-  title: Skontaktuj się ze mnią (Robert Arechwa)
+  title: Kontakt
   description: Chcesz jakięś porady, albo masz pytanie, albo po prostu chcesz się
     wygadać, napisz do mnie, albo zadzwoń. Chętnie odpowiem na pytania albo dam
     jakąś poradę.

@@ -20,6 +20,7 @@ const query = graphql`
                 seo {
                     description
                     title
+                    name
                     image {
                         publicURL
                     }

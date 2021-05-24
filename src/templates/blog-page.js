@@ -1,21 +1,35 @@
 import React from "react";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
 
-export const AboutPage = () => {
+export const BlogPageTemplate = () => {
+    return <p>blog</p>;
+};
+
+const BlogPage = ({ data }) => {
+    const { seo } = data.markdownRemark.frontmatter;
     return (
-        <section className="section section--gradient">
-            <div className="container">
-                <div className="columns">
-                    <div className="column is-10 is-offset-1">
-                        <div className="section">
-                            <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                                title
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <Layout seo={seo}>
+            <BlogPageTemplate />
+        </Layout>
     );
 };
 
-export default AboutPage;
+export default BlogPage;
+
+export const aboutPageQuery = graphql`
+    query {
+        markdownRemark(fileAbsolutePath: { regex: "/blog.md/" }) {
+            html
+            frontmatter {
+                seo {
+                    title
+                    description
+                    image {
+                        publicURL
+                    }
+                }
+            }
+        }
+    }
+`;
