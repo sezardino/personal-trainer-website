@@ -1,6 +1,6 @@
 const hero = {
   label: "Hero section",
-  name: "home-hero",
+  name: "homeHero",
   widget: "object",
   collapsed: true,
   fields: [

@@ -11,9 +11,9 @@ const posts = {
     },
     fields: [
         {
-            label: "Template Key",
-            name: "template-ley",
-            widget: "hidden",
+            label: "Template Key - blog-post. Do not change that",
+            name: "templateKey",
+            widget: "string",
             default: "blog-post",
         },
         seo,
