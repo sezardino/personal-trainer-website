@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
-import img from "../assets/img/blog-image.jpg";
+import img from "../../assets/img/blog-image.jpg";
 
 const BlogItem = () => {
   return (

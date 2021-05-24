@@ -1,6 +1,4 @@
-import { Link } from "gatsby";
 import React, { useState } from "react";
-import logo from "../img/logo.svg";
 import Logo from "./logo";
 import Nav from "./nav";
 

@@ -2,42 +2,19 @@ import React from "react";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-
-import Hero from "../components/hero";
-import About from "../components/about";
-import Services from "../components/services";
-import Blog from "../components/blog";
-
-export const IndexPageTemplate = ({ sections }) => {
-    const {
-        homeHero: hero,
-        homeAbout: about,
-        homeServices: services,
-        homeBlog: blog,
-    } = sections;
-    return (
-        <>
-            <Hero data={hero} />
-            <About data={about} />
-            <Services data={services} />
-            <Blog data={blog} />
-        </>
-    );
-};
+import HomePage from "../components/pages/Home";
 
 const IndexPage = ({ data }) => {
     const { sections, seo } = data.markdownRemark.frontmatter;
 
     return (
         <Layout seo={seo}>
-            <IndexPageTemplate sections={sections} />
+            <HomePage sections={sections} />
         </Layout>
     );
 };
 
-export default IndexPage;
-
-export const pageQuery = graphql`
+const query = graphql`
     query {
         markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
             frontmatter {
@@ -87,3 +64,6 @@ export const pageQuery = graphql`
         }
     }
 `;
+
+export { query };
+export default IndexPage;

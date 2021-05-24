@@ -1,6 +1,6 @@
 import React from "react";
-import { stringFormatting } from "../utils";
-import Social from "./social";
+import { stringFormatting } from "../../utils";
+import Social from "../parts/social";
 
 const getTitleTemplate = (title) =>
     stringFormatting.split(title).map((word) => {
