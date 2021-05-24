@@ -4,7 +4,6 @@ import Img from "gatsby-image";
 
 const About = ({ data }) => {
     const { description, image, label, title } = data;
-    console.log(image);
     return (
         <section className="about">
             <div className="container about__container">
