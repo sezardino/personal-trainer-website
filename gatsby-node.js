@@ -6,6 +6,7 @@ const { fmImagesToRelative } = require("gatsby-remark-relative-images");
 exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions;
 
+    // tags
     return graphql(`
         {
             allMarkdownRemark(limit: 1000) {
@@ -16,7 +17,6 @@ exports.createPages = ({ actions, graphql }) => {
                             slug
                         }
                         frontmatter {
-                            tags
                             templateKey
                         }
                     }
