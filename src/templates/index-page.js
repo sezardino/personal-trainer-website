@@ -72,11 +72,7 @@ export const pageQuery = graphql`
                         list {
                             description
                             image {
-                                childImageSharp {
-                                    fluid {
-                                        src
-                                    }
-                                }
+                                publicURL
                             }
                             name
                         }
