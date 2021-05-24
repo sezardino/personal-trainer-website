@@ -1,9 +1,9 @@
 import { graphql, Link, useStaticQuery } from "gatsby";
 import React from "react";
 
-import instagram from "../assets/img/inst.svg";
-import facebook from "../assets/img/f.svg";
-import vk from "../assets/img/vk.svg";
+import instagram from "../../assets/img/inst.svg";
+import facebook from "../../assets/img/f.svg";
+import vk from "../../assets/img/vk.svg";
 
 const SOCIAL_ICONS = {
     instagram,

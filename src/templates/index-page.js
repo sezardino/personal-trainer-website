@@ -3,10 +3,10 @@ import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 
-import Hero from "../components/hero";
-import About from "../components/about";
-import Services from "../components/services";
-import Blog from "../components/blog";
+import Hero from "../components/sections/hero";
+import About from "../components/sections/about";
+import Services from "../components/sections/services";
+import Blog from "../components/sections/blog";
 
 export const IndexPageTemplate = ({ sections }) => {
     const {

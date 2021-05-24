@@ -1,6 +1,5 @@
 import React from "react";
-import img from "../assets/img/services.svg";
-import { stringFormatting } from "../utils";
+import { stringFormatting } from "../../utils";
 
 const Services = ({ data }) => {
     const { title, list } = data;

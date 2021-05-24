@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
-import BlogItem from "./blog-item";
+import BlogItem from "../parts/blog-item";
 
 const Blog = ({ data }) => {
     const { label, title } = data;

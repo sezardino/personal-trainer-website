@@ -1,9 +1,8 @@
 import React from "react";
-import Footer from "../components/Footer";
-// import "./all.scss";
+import Footer from "./parts/footer";
 import "../assets/styles/main.scss";
 import Seo from "./Seo";
-import Header from "./header";
+import Header from "./parts/header";
 
 const TemplateWrapper = ({ children, title }) => {
   return (
