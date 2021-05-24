@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 seo:
-  title: Home
+  title: Główna
   image: /img/og.jpg
   description: Jestem Bob, zawsze dam rady.
   name: Robert Arechwa, trener personalny
