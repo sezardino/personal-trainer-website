@@ -25,6 +25,39 @@ sections:
       - image: /img/services.svg
         name: Lorem
         description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      - description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        name: Lorem
+        image: /img/services.svg
+      - description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        name: Lorem
+        image: /img/services.svg
+      - description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        name: Lorem
+        image: /img/services.svg
+      - description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        name: Lorem
+        image: /img/services.svg
+      - description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        name: Lorem
+        image: /img/services.svg
+      - description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        name: Lorem
+        image: /img/services.svg
+      - description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        name: Lorem
+        image: /img/services.svg
+      - description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        name: Lorem
+        image: /img/services.svg
+      - description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        name: Lorem
+        image: /img/services.svg
+      - description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        name: Lorem
+        image: /img/services.svg
+      - description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        name: Lorem
+        image: /img/services.svg
   home-blog:
     title: ostatnie wpisy
     label: wszystkie wpisy
