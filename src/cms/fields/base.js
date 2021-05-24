@@ -1,3 +1,4 @@
+// base field
 const base = {
   label: "Base component",
   name: "base",

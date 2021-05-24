@@ -5,9 +5,12 @@ import home from "./home";
 import products from "./products";
 
 const pages = {
-  name: "pages",
-  label: "Pages",
-  files: [home, about, products, blog, contact],
+    name: "pages",
+    label: "Pages",
+    editor: {
+        preview: false,
+    },
+    files: [home, about, products, blog, contact],
 };
 
 export default pages;
