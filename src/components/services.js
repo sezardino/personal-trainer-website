@@ -3,7 +3,6 @@ import img from "../assets/img/services.svg";
 import { stringFormatting } from "../utils";
 
 const Services = ({ data }) => {
-    console.log(data);
     const { title, list } = data;
     return (
         <section className="services">
