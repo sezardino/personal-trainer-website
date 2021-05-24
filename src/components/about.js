@@ -1,29 +1,31 @@
 import { Link } from "gatsby";
 import React from "react";
+import Img from "gatsby-image";
 
-const About = () => {
-  return (
-    <section className="about">
-      <div className="container about__container">
-        <div className="about__description">
-          <h2 className="about__title">Dlaczego ja</h2>
-          <p className="about__text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
-            consequatur nulla praesentium doloremque voluptatibus optio
-            asperiores quod neque iure, similique omnis animi ab odio incidunt
-            dolorum et cumque repellendus repudiandae accusamus atque modi
-            excepturi molestias nam officiis. Quaerat placeat possimus
-            consectetur animi eligendi esse in blanditiis eum libero, aspernatur
-            perspiciatis
-          </p>
-          <Link to="/about" className="button button--primary about__button">
-            więcej o mnie
-          </Link>
-        </div>
-        <div className="about__image-wrapper"></div>
-      </div>
-    </section>
-  );
+const About = ({ data }) => {
+    const { description, image, label, title } = data;
+    console.log(image);
+    return (
+        <section className="about">
+            <div className="container about__container">
+                <div className="about__description">
+                    <h2 className="about__title">{title}</h2>
+                    <p className="about__text">{description}</p>
+                    <Link
+                        to="/about"
+                        className="button button--primary about__button"
+                    >
+                        {label}
+                    </Link>
+                </div>
+                <Img
+                    fluid={image.childImageSharp.fluid}
+                    alt="to ja"
+                    className="about__image-wrapper"
+                />
+            </div>
+        </section>
+    );
 };
 
 export default About;
