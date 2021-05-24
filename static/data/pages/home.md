@@ -2,7 +2,7 @@
 seo:
   title: Robert Arechwa, trener personalny
   image: /img/og.jpg
-  description: Jestem Bob, zawsze dam rady
+  description: Jestem Bob, zawsze dam rady.
 home-hero:
   title: Robert Arechwa
   description: trener personalny
