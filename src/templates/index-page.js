@@ -44,7 +44,7 @@ const query = graphql`
                         description
                         image {
                             childImageSharp {
-                                fluid {
+                                fluid(quality: 10) {
                                     src
                                 }
                             }

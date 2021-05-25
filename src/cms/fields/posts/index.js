@@ -3,7 +3,7 @@ import seo from "../parts/seo";
 const posts = {
     label: "Post",
     name: "post",
-    folder: "static/data/posts",
+    folder: "static/pages/blog",
     create: true,
     slug: "{{slug}}",
     editor: {
