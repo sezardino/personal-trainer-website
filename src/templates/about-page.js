@@ -1,23 +1,20 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-
-export const AboutPageTemplate = () => {
-    return <p>about page</p>;
-};
+import AboutTemplate from "../components/pages/About";
 
 const AboutPage = ({ data }) => {
-    const seo = data.markdownRemark.frontmatter.seo;
+    const { seo, sections } = data.markdownRemark.frontmatter;
 
     return (
         <Layout seo={seo}>
-            <AboutPageTemplate />
+            <AboutTemplate sections={sections} />
         </Layout>
     );
 };
 
 const query = graphql`
-    query MyQuery {
+    query {
         markdownRemark(fileAbsolutePath: { regex: "/about.md/" }) {
             frontmatter {
                 seo {
@@ -25,7 +22,28 @@ const query = graphql`
                     name
                     title
                     image {
-                        publicURL
+                        childImageSharp {
+                            fluid(quality: 70, maxWidth: 150) {
+                                src
+                            }
+                        }
+                    }
+                }
+                sections {
+                    hero {
+                        description
+                        image {
+                            childImageSharp {
+                                fluid(quality: 100) {
+                                    src
+                                }
+                            }
+                        }
+                        title
+                    }
+                    blog {
+                        label
+                        title
                     }
                 }
             }

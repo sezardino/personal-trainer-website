@@ -13,13 +13,13 @@ const blog = {
             default: "blog-page",
         },
         seo,
-        // {
-        //     label: "Sections",
-        //     name: "sections",
-        //     widget: "object",
-        //     required: false,
-        //     fields: blogSections,
-        // },
+        {
+            label: "Sections",
+            name: "sections",
+            widget: "object",
+            required: false,
+            fields: blogSections,
+        },
     ],
 };
 

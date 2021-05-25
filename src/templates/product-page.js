@@ -1,24 +1,20 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-
-export const ProductPageTemplate = () => {
-    return <p>product page</p>;
-};
+import ProductsTemplate from "../components/pages/Products";
 
 const ProductPage = ({ data }) => {
-    const seo = data.markdownRemark.frontmatter.seo;
+    const { seo, sections } = data.markdownRemark.frontmatter;
 
     return (
         <Layout seo={seo}>
-            <ProductPageTemplate />
+            <ProductsTemplate sections={sections} />
         </Layout>
     );
 };
 
 const query = graphql`
-    query {
+    {
         markdownRemark(fileAbsolutePath: { regex: "/products.md/" }) {
             id
             frontmatter {
@@ -27,7 +23,28 @@ const query = graphql`
                     name
                     title
                     image {
-                        publicURL
+                        childImageSharp {
+                            fluid(quality: 70, maxWidth: 150) {
+                                src
+                            }
+                        }
+                    }
+                }
+                sections {
+                    blog {
+                        label
+                        title
+                    }
+                    hero {
+                        description
+                        title
+                        image {
+                            childImageSharp {
+                                fluid(quality: 100) {
+                                    src
+                                }
+                            }
+                        }
                     }
                 }
             }

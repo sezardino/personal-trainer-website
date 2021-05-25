@@ -21,7 +21,11 @@ const query = graphql`
                     title
                     name
                     image {
-                        publicURL
+                        childImageSharp {
+                            fluid(quality: 70, maxWidth: 150) {
+                                src
+                            }
+                        }
                     }
                 }
             }

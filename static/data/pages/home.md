@@ -62,7 +62,4 @@ sections:
   blog:
     title: ostatnie wpisy
     label: wszystkie wpisy
-  blog:
-    title: ostatnie wpisy
-    label: wszystkie wpisy
 ---
