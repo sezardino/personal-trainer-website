@@ -6,7 +6,7 @@ seo:
   description: Jestem Bob, zawsze dam rady.
   name: Robert Arechwa, trener personalny
 sections:
-  homeHero:
+  hero:
     title: Robert Arechwa
     description: trener personalny
     image: /img/home-bg.jpg
@@ -59,9 +59,6 @@ sections:
       - description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
         name: Lorem
         image: /img/services.svg
-  homeBlog:
-    title: ostatnie wpisy
-    label: wszystkie wpisy
   blog:
     title: ostatnie wpisy
     label: wszystkie wpisy

@@ -1,35 +1,49 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-
-export const BlogPageTemplate = () => {
-    return <p>blog</p>;
-};
+import BlogTemplate from "../components/pages/Blog";
 
 const BlogPage = ({ data }) => {
-    const { seo } = data.markdownRemark.frontmatter;
+    const { seo, sections } = data.markdownRemark.frontmatter;
     return (
         <Layout seo={seo}>
-            <BlogPageTemplate />
+            <BlogTemplate sections={sections} />
         </Layout>
     );
 };
 
-export default BlogPage;
-
-export const aboutPageQuery = graphql`
-    query {
-        markdownRemark(fileAbsolutePath: { regex: "/blog.md/" }) {
-            html
+const query = graphql`
+    {
+        markdownRemark(frontmatter: { templateKey: { eq: "blog-page" } }) {
             frontmatter {
                 seo {
-                    title
                     description
                     image {
-                        publicURL
+                        childImageSharp {
+                            fluid(quality: 70, maxWidth: 150) {
+                                src
+                            }
+                        }
+                    }
+                    title
+                }
+                sections {
+                    hero {
+                        description
+                        image {
+                            childImageSharp {
+                                fluid(quality: 100) {
+                                    src
+                                }
+                            }
+                        }
+                        title
                     }
                 }
             }
         }
     }
 `;
+
+export { query };
+export default BlogPage;
