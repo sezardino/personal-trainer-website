@@ -15,9 +15,7 @@ const BlogPage = ({ data }) => {
     );
 };
 
-export default BlogPage;
-
-export const aboutPageQuery = graphql`
+const query = graphql`
     query {
         markdownRemark(fileAbsolutePath: { regex: "/blog.md/" }) {
             html
@@ -33,3 +31,6 @@ export const aboutPageQuery = graphql`
         }
     }
 `;
+
+export { query };
+export default BlogPage;
