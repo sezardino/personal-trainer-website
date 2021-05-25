@@ -17,4 +17,6 @@ sections:
     description: Skontaktuj się ze mna i coś tam jeszcze będzie napisane jeszcze
       będzie napisane jeszcze będzie napisane.
     label: wyslij wiadomość
+    susses-label: Twoja wiadomość została wysłana
+    error-label: UUPS! Coś poszło nie tak
 ---
