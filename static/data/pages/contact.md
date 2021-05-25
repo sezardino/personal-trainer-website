@@ -11,4 +11,10 @@ contact:
   description: Skontaktuj się ze mna i coś tam jeszcze będzie napisane jeszcze
     będzie napisane jeszcze będzie napisane.
   label: Wysłać wiadomość
+sections:
+  contact:
+    title: kontakt
+    description: Skontaktuj się ze mna i coś tam jeszcze będzie napisane jeszcze
+      będzie napisane jeszcze będzie napisane.
+    label: wyslij wiadomość
 ---
