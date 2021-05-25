@@ -4,7 +4,9 @@ const noPage = {
     file: "static/data/pages/404.md",
     label: "404",
     name: "no-page",
-    fields: [seo],
+    fields: [
+      seo,
+    ],
 };
 
 export default noPage;
