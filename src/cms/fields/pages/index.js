@@ -1,3 +1,4 @@
+import noPage from "./404";
 import about from "./about";
 import blog from "./blog";
 import contact from "./contact";
@@ -10,7 +11,7 @@ const pages = {
     editor: {
         preview: false,
     },
-    files: [home, about, products, blog, contact],
+    files: [home, about, products, blog, contact, noPage],
 };
 
 export default pages;

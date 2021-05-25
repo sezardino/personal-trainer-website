@@ -1,4 +1,4 @@
-import hero from "./hero";
+import hero from "../../parts/hero";
 
 const blogSections = [hero];
 

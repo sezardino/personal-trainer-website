@@ -26,7 +26,7 @@ const query = graphql`
                     title
                 }
                 sections {
-                    homeHero {
+                    hero {
                         description
                         image {
                             publicURL
@@ -55,7 +55,7 @@ const query = graphql`
                         }
                         title
                     }
-                    homeBlog {
+                    blog {
                         label
                         title
                     }

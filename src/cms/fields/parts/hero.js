@@ -1,6 +1,6 @@
 const hero = {
-  label: "Hero Section",
-  name: "blog-hero",
+  label: "Hero section",
+  name: "hero",
   widget: "object",
   collapsed: true,
   fields: [
@@ -11,15 +11,15 @@ const hero = {
       required: false,
     },
     {
-      label: "Background Image",
-      name: "image",
-      widget: "image",
+      label: "Subtitle",
+      name: "description",
+      widget: "text",
       required: false,
     },
     {
-      label: "Description",
-      name: "description",
-      widget: "text",
+      label: "Background image",
+      name: "image",
+      widget: "image",
       required: false,
     },
   ],
