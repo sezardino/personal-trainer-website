@@ -7,10 +7,10 @@ import Blog from "../sections/blog";
 
 export const HomePage = ({ sections }) => {
     const {
-        homeHero: hero,
+        hero: hero,
         homeAbout: about,
         homeServices: services,
-        homeBlog: blog,
+        blog: blog,
     } = sections;
     return (
         <>

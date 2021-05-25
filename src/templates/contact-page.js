@@ -4,7 +4,6 @@ import Layout from "../components/Layout";
 import ContactPage from "../components/pages/Contact";
 
 const Contact = ({ data }) => {
-    // const fields = data.markdownRemark.frontmatter.contactData;
     const seo = data.markdownRemark.frontmatter.seo;
     return (
         <Layout seo={seo}>
@@ -22,7 +21,11 @@ const query = graphql`
                     title
                     name
                     image {
-                        publicURL
+                        childImageSharp {
+                            fluid(quality: 70, maxWidth: 150) {
+                                src
+                            }
+                        }
                     }
                 }
             }

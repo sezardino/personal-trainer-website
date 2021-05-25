@@ -6,7 +6,7 @@ import HomePage from "../components/pages/Home";
 
 const IndexPage = ({ data }) => {
     const { sections, seo } = data.markdownRemark.frontmatter;
-
+    console.log(sections);
     return (
         <Layout seo={seo}>
             <HomePage sections={sections} />
@@ -15,21 +15,29 @@ const IndexPage = ({ data }) => {
 };
 
 const query = graphql`
-    query {
+    {
         markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
             frontmatter {
                 seo {
                     description
                     image {
-                        publicURL
+                        childImageSharp {
+                            fluid(quality: 70, maxWidth: 150) {
+                                src
+                            }
+                        }
                     }
                     title
                 }
                 sections {
-                    homeHero {
+                    hero {
                         description
                         image {
-                            publicURL
+                            childImageSharp {
+                                fluid(quality: 100) {
+                                    src
+                                }
+                            }
                         }
                         title
                     }
@@ -55,7 +63,7 @@ const query = graphql`
                         }
                         title
                     }
-                    homeBlog {
+                    blog {
                         label
                         title
                     }

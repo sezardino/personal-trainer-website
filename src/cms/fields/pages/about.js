@@ -13,7 +13,13 @@ const about = {
             default: "about-page",
         },
         seo,
-        ...aboutSections,
+        {
+            label: "Sections",
+            name: "sections",
+            widget: "object",
+            required: false,
+            fields: aboutSections,
+        },
     ],
 };
 

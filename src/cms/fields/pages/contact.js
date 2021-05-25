@@ -13,7 +13,13 @@ const contact = {
             default: "about-page",
         },
         seo,
-        ...contactSections,
+        {
+            label: "Sections",
+            name: "sections",
+            widget: "object",
+            required: false,
+            fields: contactSections,
+        },
     ],
 };
 

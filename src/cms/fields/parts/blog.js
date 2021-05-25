@@ -1,6 +1,6 @@
 const blog = {
   label: "Blog section",
-  name: "homeBlog",
+  name: "blog",
   widget: "object",
   collapsed: true,
   fields: [

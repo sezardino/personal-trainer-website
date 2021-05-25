@@ -22,6 +22,18 @@ const contact = {
       widget: "string",
       required: false,
     },
+    {
+      label: "Susses label",
+      name: "susses-label",
+      widget: "string",
+      required: false,
+    },
+    {
+      label: "Error label",
+      name: "error-label",
+      widget: "string",
+      required: false,
+    },
   ],
 };
 
