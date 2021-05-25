@@ -4,7 +4,6 @@ import Nav from "./nav";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
-console.log(1);
   const clickHandler = () => {
     setMenu(!menu);
   };
