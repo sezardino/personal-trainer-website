@@ -25,6 +25,37 @@
         max-width: 700px;
     }
 
+    &__description-list {
+        margin-top: 20px;
+    }
+
+    &__description-item {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        color: var(--main-fc);
+
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        padding-left: 20px;
+        position: relative;
+
+        &:before {
+            content: "";
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+
+            background-color: var(--third-color);
+
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
     &__title {
         font-size: 4rem;
         line-height: 5.1rem;

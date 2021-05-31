@@ -1,12 +1,12 @@
 ---
 templateKey: blog-page
 seo:
-  title: Blog
-  description: Mój blog
+  title: dqwdq
+  description: dqwdqwqdwdwq
   image: home-bg.jpg
 sections:
   hero:
-    title: Ostatnie Wpisy
-    description: Chcesz poczytać coś o zdrowiu, to tu znajdziesz coś dla siebie
+    title: dqwdqdqw
+    description: wqdqwqdqddqw
     image: home-bg.jpg
 ---

@@ -104,48 +104,49 @@
 
 import { graphql } from "gatsby";
 import React from "react";
-// import Layout from "../components/Layout";
+import Layout from "../components/Layout";
+import PostTemplate from "../components/pages/Post";
 
 const BlogPost = ({ data }) => {
     const { seo } = data.markdownRemark.frontmatter;
-    const html = data.markdownRemark.html;
-    console.log(data);
-    return (<p>post</p>
-        // <Layout seo={seo}>
-        //     <div dangerouslySetInnerHTML={{ __html: html }}></div>
-        // </Layout>
+
+    return (
+        <Layout seo={seo}>
+            <PostTemplate data={data} />
+        </Layout>
     );
 };
 
-// const query = graphql`
-//     query ($id: String) {
-//         markdownRemark(id: { eq: $id }) {
-//             frontmatter {
-//                 seo {
-//                     description
-//                     title
-//                     image {
-//                         childrenImageSharp {
-//                             fluid(quality: 10) {
-//                                 src
-//                             }
-//                         }
-//                     }
-//                 }
-//                 excerpt
-//                 featured_image {
-//                     childImageSharp {
-//                         fluid(quality: 10) {
-//                             src
-//                         }
-//                     }
-//                 }
-//                 date(formatString: "")
-//             }
-//             html
-//         }
-//     }
-// `;
+const query = graphql`
+    query ($id: String) {
+        markdownRemark(id: { eq: $id }) {
+            frontmatter {
+                seo {
+                    description
+                    title
+                    image {
+                        childrenImageSharp {
+                            fluid(quality: 10) {
+                                src
+                            }
+                        }
+                    }
+                }
+                title
+                excerpt
+                date(formatString: "ll")
+                thumbnail {
+                    childImageSharp {
+                        fluid(quality: 10) {
+                            src
+                        }
+                    }
+                }
+            }
+            html
+        }
+    }
+`;
 
-// export { query };
+export { query };
 export default BlogPost;

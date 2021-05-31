@@ -14,17 +14,12 @@ const collection = {
     public_folder: "",
     path: "{{title}}/index",
     fields: [
+        seo,
         {
-            label: "Type",
-            name: "type",
+            label: "Template Key",
+            name: "templateKey",
             widget: "hidden",
-            default: "article",
-        },
-        {
-            label: "Layout",
-            name: "layout",
-            widget: "hidden",
-            default: "Article",
+            default: "blog-post",
         },
         {
             label: "Title",
@@ -49,7 +44,7 @@ const collection = {
         {
             label: "Excerpt",
             name: "excerpt",
-            widget: "markdown",
+            widget: "text",
             default: "",
             required: false,
         },
@@ -60,7 +55,6 @@ const collection = {
             default: "",
             required: false,
         },
-        seo,
     ],
 };
 
