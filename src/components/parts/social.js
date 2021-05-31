@@ -13,7 +13,7 @@ const SOCIAL_ICONS = {
 
 const query = graphql`
     {
-        markdownRemark(fileAbsolutePath: { regex: "/common-data.md/" }) {
+        markdownRemark(fileAbsolutePath: { regex: "/common/" }) {
             frontmatter {
                 contactData {
                     facebook

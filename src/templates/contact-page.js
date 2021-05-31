@@ -14,12 +14,11 @@ const Contact = ({ data }) => {
 
 const query = graphql`
     {
-        markdownRemark(fileAbsolutePath: { regex: "/contact.md/" }) {
+        markdownRemark(fileAbsolutePath: { regex: "/contact/" }) {
             frontmatter {
                 seo {
                     description
                     title
-                    name
                     image {
                         childImageSharp {
                             fluid(quality: 70, maxWidth: 150) {

@@ -4,7 +4,6 @@ import Hero from "../sections/hero";
 import Blog from "../sections/blog";
 
 export const ProductsPage = ({ sections }) => {
-  console.log(sections);
     const { hero, blog } = sections;
     return (
         <>
