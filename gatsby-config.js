@@ -1,85 +1,44 @@
 module.exports = {
-  siteMetadata: {
-    title: "Robert Arechwa - Trener Personalny",
-    description: `Hej, mam na imie Robert Arechwa, jestem trenerem personalnym, pomoge ci zadbać o swoją sylwetke.
-        Prowadze treningi personalne, oraz mogę rospisać dla ciebię diete`,
-  },
-  plugins: [
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sass",
-    {
-      // keep as first gatsby-source-filesystem plugin for gatsby image support
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/static/img`,
-        name: "uploads",
-      },
+    siteMetadata: {
+        title: "v3",
     },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/static/data/site`,
-        name: "site",
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/static/data/pages`,
-        name: "pages",
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/src/assets/img`,
-        name: "images",
-      },
-    },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-relative-images",
+    plugins: [
+        "gatsby-plugin-sass",
+        "gatsby-plugin-sharp",
+        "gatsby-plugin-react-helmet",
+        "gatsby-transformer-remark",
+        "gatsby-transformer-sharp",
+        {
+            resolve: "gatsby-source-filesystem",
             options: {
-              name: "uploads",
+                name: "images",
+                path: "./src/images/",
             },
-          },
-          {
-            resolve: "gatsby-remark-images",
+            __key: "images",
+        },
+        {
+            resolve: "gatsby-source-filesystem",
             options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 2048,
+                name: "pages",
+                path: "./src/pages/",
             },
-          },
-          {
-            resolve: "gatsby-remark-copy-linked-files",
+            __key: "pages",
+        },
+        {
+            resolve: "gatsby-source-filesystem",
             options: {
-              destinationDir: "static",
+                name: "cms-content",
+                path: "./content/",
             },
-          },
-        ],
-      },
-    },
-    {
-      resolve: "gatsby-plugin-netlify-cms",
-      options: {
-        manualInit: true,
-        modulePath: `${__dirname}/src/cms/cms.js`,
-      },
-    },
-    {
-      resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
-      options: {
-        develop: true, // Activates purging in npm run develop
-        purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
-      },
-    }, // must be after other CSS plugins
-    "gatsby-plugin-netlify", // make sure to keep it last in the array
-  ],
+            __key: "cms-content",
+        },
+        {
+            resolve: "gatsby-plugin-netlify-cms",
+            options: {
+                manualInit: true,
+                modulePath: `${__dirname}/src/cms/cms.js`,
+            },
+        },
+        "gatsby-plugin-netlify",
+    ],
 };

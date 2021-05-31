@@ -40,7 +40,7 @@ const query = graphql`
                         }
                         title
                     }
-                    homeAbout {
+                    about {
                         description
                         image {
                             childImageSharp {
@@ -52,7 +52,7 @@ const query = graphql`
                         label
                         title
                     }
-                    homeServices {
+                    services {
                         list {
                             description
                             image {

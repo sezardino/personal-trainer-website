@@ -15,11 +15,10 @@ const AboutPage = ({ data }) => {
 
 const query = graphql`
     query {
-        markdownRemark(fileAbsolutePath: { regex: "/about.md/" }) {
+        markdownRemark(fileAbsolutePath: { regex: "/about/" }) {
             frontmatter {
                 seo {
                     description
-                    name
                     title
                     image {
                         childImageSharp {

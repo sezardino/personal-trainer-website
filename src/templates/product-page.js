@@ -15,12 +15,11 @@ const ProductPage = ({ data }) => {
 
 const query = graphql`
     {
-        markdownRemark(fileAbsolutePath: { regex: "/products.md/" }) {
+        markdownRemark(fileAbsolutePath: { regex: "/products/" }) {
             id
             frontmatter {
                 seo {
                     description
-                    name
                     title
                     image {
                         childImageSharp {
