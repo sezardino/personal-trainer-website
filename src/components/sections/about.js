@@ -17,8 +17,8 @@ const About = ({ data }) => {
                         {label}
                     </Link>
                 </div>
-                <Img
-                    fluid={image.childImageSharp.fluid}
+                <img
+                    src={image.childImageSharp.fluid.src}
                     alt="to ja"
                     className="about__image-wrapper"
                 />
