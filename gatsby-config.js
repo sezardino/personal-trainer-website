@@ -1,6 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: "v3",
+        title: "Robert Arechwa - Trener Personalny",
+        description: `Hej, mam na imie Robert Arechwa, jestem trenerem personalnym, pomoge ci zadbać o swoją sylwetke.
+        Prowadze treningi personalne, oraz mogę rospisać dla ciebię diete`,
     },
     plugins: [
         "gatsby-plugin-sass",
