@@ -1,9 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
-import img from "../../assets/img/blog-image.jpg";
 
 const BlogItem = ({ data }) => {
-    console.log(data);
     const { title, excerpt, date, thumbnail, slug } = data;
     return (
         <article className="blog-item">

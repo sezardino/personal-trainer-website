@@ -4,10 +4,21 @@ import Layout from "../components/Layout";
 import BlogTemplate from "../components/pages/Blog";
 
 const BlogPage = ({ data }) => {
-    const { seo, sections } = data.markdownRemark.frontmatter;
+    const {
+        markdownRemark: {
+            frontmatter: { seo, sections },
+        },
+        allMarkdownRemark,
+    } = data;
+
     return (
         <Layout seo={seo}>
-            <BlogTemplate sections={sections} />
+            <BlogTemplate
+                data={{
+                    sections: sections,
+                    posts: allMarkdownRemark.edges,
+                }}
+            />
         </Layout>
     );
 };
@@ -38,6 +49,31 @@ const query = graphql`
                             }
                         }
                         title
+                    }
+                }
+            }
+        }
+        allMarkdownRemark(
+            filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+            sort: { fields: frontmatter___date }
+        ) {
+            edges {
+                node {
+                    id
+                    frontmatter {
+                        title
+                        excerpt
+                        date(formatString: "ll")
+                        thumbnail {
+                            childImageSharp {
+                                fluid(quality: 10) {
+                                    src
+                                }
+                            }
+                        }
+                    }
+                    fields {
+                        slug
                     }
                 }
             }

@@ -126,7 +126,7 @@ const query = graphql`
                     title
                     image {
                         childrenImageSharp {
-                            fluid(quality: 10) {
+                            fluid(quality: 100) {
                                 src
                             }
                         }
@@ -137,7 +137,7 @@ const query = graphql`
                 date(formatString: "ll")
                 thumbnail {
                     childImageSharp {
-                        fluid(quality: 10) {
+                        fluid(quality: 100) {
                             src
                         }
                     }
