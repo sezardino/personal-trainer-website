@@ -14,20 +14,12 @@ sections:
     description: >
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
       consequatur nulla praesentium doloremque voluptatibus optio asperiores
-      quod neque iure, similiqufqfewe omnis animi ab odio incidunt 
-    label: więcej o mnie
-    image: trener.png
-    descr: |-
-      wqdqdqwdqwd 
-
-      * dqwdqwdq
-
-        dqwdqwdqw
-
-        dqdqwdq
-    description-list:
+      quod neque iure, similiqufqfewe omnis animi ab odio incidunt
+    descriptionList:
       - test 1
       - test2
+    label: więcej o mnie
+    image: trener.png
   services:
     title: proponuje ci
     list:
