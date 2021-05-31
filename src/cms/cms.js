@@ -9,7 +9,7 @@ CMS.init({
         backend: {
             name: "github",
             branch: "master",
-            repo: "sezardino/v3",
+            repo: "sezardino/personal-trainer-website",
         },
         commit_messages: {
             create: "Create {{collection}} “{{slug}}”",
