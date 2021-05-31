@@ -11,17 +11,10 @@ sections:
     image: home-bg.jpg
   about:
     title: dlaczego ja
-    description: >-
+    description: >
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
       consequatur nulla praesentium doloremque voluptatibus optio asperiores
       quod neque iure, similiqufqfewe omnis animi ab odio incidunt 
-
-
-      * Test
-
-        test
-
-        test
     label: więcej o mnie
     image: trener.png
     descr: |-
@@ -32,6 +25,9 @@ sections:
         dqwdqwdqw
 
         dqdqwdq
+    description-list:
+      - test 1
+      - test2
   services:
     title: proponuje ci
     list:
