@@ -8,7 +8,6 @@ module.exports = {
         "gatsby-plugin-sass",
         "gatsby-plugin-sharp",
         "gatsby-plugin-react-helmet",
-        "gatsby-transformer-remark",
         "gatsby-transformer-sharp",
         {
             resolve: "gatsby-source-filesystem",
@@ -33,6 +32,19 @@ module.exports = {
                 path: "./content/",
             },
             __key: "cms-content",
+        },
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            maxWidth: 600,
+                        },
+                    },
+                ],
+            },
         },
         {
             resolve: "gatsby-plugin-netlify-cms",
