@@ -10,12 +10,8 @@ const about = {
             widget: "string",
             required: false,
         },
-        {
-            label: "Description",
-            name: "description",
-            widget: "text",
-            required: false,
-        },
+        { label: "Description", name: "description", widget: "markdown" },
+        { label: "descr", name: "descr", widget: "markdown" },
         {
             label: "Button label",
             name: "label",
