@@ -11,7 +11,7 @@ const about = {
             required: false,
         },
         { label: "Description", name: "description", widget: "text" },
-        {label: "Description List", name: "description-list", widget: "list", field:{ label: 'Description item', name: "description-item", widget: 'text'}}
+        {label: "Description List", name: "descriptionList", widget: "list", field:{ label: 'Description item', name: "descriptionItem", widget: 'text'}},
         {
             label: "Button label",
             name: "label",
