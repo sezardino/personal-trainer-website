@@ -24,6 +24,14 @@ sections:
         test
     label: więcej o mnie
     image: trener.png
+    descr: |-
+      wqdqdqwdqwd 
+
+      * dqwdqwdq
+
+        dqwdqwdqw
+
+        dqdqwdq
   services:
     title: proponuje ci
     list:
