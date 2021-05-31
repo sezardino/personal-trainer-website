@@ -11,12 +11,17 @@ sections:
     image: home-bg.jpg
   about:
     title: dlaczego ja
-    description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
+    description: >-
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
       consequatur nulla praesentium doloremque voluptatibus optio asperiores
-      quod neque iure, similique omnis animi ab odio incidunt dolorum et cumque
-      repellendus repudiandae accusamus atque modi excepturi molestias nam
-      officiis. Quaerat placeat possimus consectetur animi eligendi esse in
-      blanditiis eum libero, aspernatur perspiciatis
+      quod neque iure, similique omnis animi ab odio incidunt 
+
+
+      * Test
+
+        test
+
+        test
     label: więcej o mnie
     image: trener.png
   services:
