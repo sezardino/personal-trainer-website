@@ -2,7 +2,7 @@ import { graphql, useStaticQuery } from "gatsby";
 
 const query = graphql`
     query {
-        markdownRemark(fileAbsolutePath: { regex: "/seo-data.md/" }) {
+        markdownRemark(fileAbsolutePath: { regex: "/seo/" }) {
             frontmatter {
                 name
                 description

@@ -6,12 +6,7 @@ import Services from "../sections/services";
 import Blog from "../sections/blog";
 
 export const HomePage = ({ sections }) => {
-    const {
-        hero: hero,
-        homeAbout: about,
-        homeServices: services,
-        blog: blog,
-    } = sections;
+    const { hero, about, services, blog } = sections;
     return (
         <>
             <Hero data={hero} />

@@ -3,7 +3,7 @@ import React from "react";
 
 const query = graphql`
     {
-        markdownRemark(fileAbsolutePath: { regex: "/common-data.md/" }) {
+        markdownRemark(fileAbsolutePath: { regex: "/common/" }) {
             frontmatter {
                 contactData {
                     tel
