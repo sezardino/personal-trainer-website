@@ -21,7 +21,7 @@ const query = graphql`
                         date(formatString: "ll")
                         thumbnail {
                             childImageSharp {
-                                fluid(quality: 100) {
+                                fluid(quality: 100, maxHeight: 290) {
                                     src
                                 }
                             }

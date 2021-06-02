@@ -6,7 +6,7 @@ const page = {
     label: "Blog Page",
     name: "blog-page",
     folder: "content/pages/blog",
-    file: "content/pages/blog/index.md",
+    file: "content/pages/blog.md",
     ...defaultPage,
     fields: [
         {

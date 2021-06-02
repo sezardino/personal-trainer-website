@@ -3,9 +3,15 @@
   flex-direction: column;
   align-items: flex-start;
 
+  &__img-wrapper {
+    width: 100%;
+  }
+
   &__img {
     width: 100%;
     max-width: 100%;
+    max-height: 290px;
+    object-fit: fill;
   }
 
   &__title {
@@ -26,6 +32,11 @@
       font-size: 2rem;
       line-height: 3.5rem;
       letter-spacing: 0.05rem;
+    }
+
+    a {
+      padding: 10px;
+      padding-left: 0;
     }
   }
 
@@ -56,14 +67,16 @@
       margin-top: 20px;
 
       font-size: 1.7rem;
-      line-height: 4.3rem;
+      line-height: 3.3rem;
     }
   }
 
   &__link {
+    padding: 10px;
+    padding-left: 0;
     margin-top: 10px;
 
-    display: block;
+    display: inline-flex;
 
     font-weight: 600;
     font-size: 1.8rem;
