@@ -28,10 +28,10 @@ sections:
         description: "Prowadzenie treningu u ciebie w domu/na siłowni, albo na podwurku "
       - image: trening.svg
         name: Trening online
-        description: Trening online
+        description: Prowadzenie trening online
       - image: diet.svg
         name: Plan żywieniowy
-        description: Plan żywieniowy
+        description: Napisanie indywidualnego planu żywieniowego
       - image: size.svg
         name: Program dieteczny
         description: Prowadzenie I wsparcie dietetyczne
