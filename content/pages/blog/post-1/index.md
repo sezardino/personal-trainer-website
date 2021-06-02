@@ -4,54 +4,34 @@ seo:
   title: Post 1
   description: Post 1 descr
 templateKey: blog-post
-title: Post 1
+title: Czemu trzeba uprawiaćsport
 thumbnail: og.jpg
-date: 2021-05-31T11:32:13.242Z
-excerpt: Some exerpt of post 1
+date: 2021-06-02T06:52:19.245Z
+excerpt: Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w
+  przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez
+  nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków
+  później zaczął być używany przemyśle elektronicznym, pozostając praktycznie
+  niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy
+  Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym
+  różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na
+  komputerach osobistych, jak Aldus PageMaker
 ---
-# Hh1
-
-## Hh2
-
-### Hh3
-
-#### Hh4
-
-##### Hh5
-
-###### Hh6
-
-<!--StartFragment-->
+## Czym jest Lorem Ipsum?
 
 **Lorem Ipsum** jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker
 
-<!--EndFragment-->
+## Do czego tego użyć?
 
-qfqggwegerhrtjytjtyukuykyukchgnrhrthe fw fwgh hrt hr hr hr jrj e h jtr 
+Ogólnie znana teza głosi, iż użytkownika może rozpraszać zrozumiała zawartość strony, kiedy ten chce zobaczyć sam jej wygląd. Jedną z mocnych stron używania Lorem Ipsum jest to, że ma wiele różnych „kombinacji” zdań, słów i akapitów, w przeciwieństwie do zwykłego: „tekst, tekst, tekst”, sprawiającego, że wygląda to „zbyt czytelnie” po polsku. Wielu webmasterów i designerów używa Lorem Ipsum jako domyślnego modelu tekstu i wpisanie w internetowej wyszukiwarce ‘lorem ipsum’ spowoduje znalezienie bardzo wielu stron, które wciąż są w budowie. Wiele wersji tekstu ewoluowało i zmieniało się przez lata, czasem przez przypadek, czasem specjalnie (humorystyczne wstawki itd).
 
-**eggwgerhthtrht**
+![trening](og.jpg "trening")
 
-[link](<some link>)
+## Skąd się to wzięło?
 
-**Lorem Ipsum** jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją [link in tekst](<some url>) arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker
+W przeciwieństwie do rozpowszechnionych opinii, Lorem Ipsum nie jest tylko przypadkowym tekstem. Ma ono korzenie w klasycznej łacińskiej literaturze z 45 roku przed Chrystusem, czyli ponad 2000 lat temu! Richard McClintock, wykładowca łaciny na uniwersytecie Hampden-Sydney w Virginii, przyjrzał się uważniej jednemu z najbardziej niejasnych słów w Lorem Ipsum – consectetur – i po wielu poszukiwaniach odnalazł niezaprzeczalne źródło: Lorem Ipsum pochodzi z fragmentów (1.10.32 i 1.10.33) „de Finibus Bonorum et Malorum”, czyli „O granicy dobra i zła”, napisanej właśnie w 45 p.n.e. przez Cycerona. Jest to bardzo popularna w czasach renesansu rozprawa na temat etyki. Pierwszy wiersz Lorem Ipsum, „Lorem ipsum dolor sit amet...” pochodzi właśnie z sekcji 1.10.32.
 
-> some quote
->
-> dqdqwdqd
->
-> d
+Standardowy blok Lorem Ipsum, używany od XV wieku, jest odtworzony niżej dla zainteresowanych. Fragmenty 1.10.32 i 1.10.33 z „de Finibus Bonorum et Malorum” Cycerona, są odtworzone w dokładnej, oryginalnej formie, wraz z angielskimi tłumaczeniami H. Rackhama z 1914 roku.
 
-![dqwdqwdqw](og.jpg "dqwdqwqdq")
+## Skąd to wziąć?
 
-LIST
-
-* item 1
-* item 2
-* item 3
-* item 4
-* item 5
-
-1. nr1
-2. nr2
-3. nr3
-4. nr4
+Jest dostępnych wiele różnych wersji Lorem Ipsum, ale większość zmieniła się pod wpływem dodanego humoru czy przypadkowych słów, które nawet w najmniejszym stopniu nie przypominają istniejących. Jeśli masz zamiar użyć fragmentu Lorem Ipsum, lepiej mieć pewność, że nie ma niczego „dziwnego” w środku tekstu. Wszystkie Internetowe generatory Lorem Ipsum mają tendencje do kopiowania już istniejących bloków, co czyni nasz pierwszym prawdziwym generatorem w Internecie. Używamy zawierającego ponad 200 łacińskich słów słownika, w kontekście wielu znanych sentencji, by wygenerować tekst wyglądający odpowiednio. To wszystko czyni „nasz” Lorem Ipsum wolnym od powtórzeń, humorystycznych wstawek czy niecharakterystycznych słów.
