@@ -1,10 +1,17 @@
 ---
 seo:
   image: og.jpg
-  title: Post 1
-  description: Post 1 descr
+  title: Czemu trzeba uprawiać sport
+  description: Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w
+    przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez
+    nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków
+    później zaczął być używany przemyśle elektronicznym, pozostając praktycznie
+    niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją
+    arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z
+    zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do
+    realizacji druków na komputerach osobistych, jak Aldus PageMaker
 templateKey: blog-post
-title: Czemu trzeba uprawiaćsport
+title: Czemu trzeba uprawiać sport
 thumbnail: og.jpg
 date: 2021-06-02T06:52:19.245Z
 excerpt: Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w
