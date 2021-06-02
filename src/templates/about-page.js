@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Layout from "../components/Layout";
 import AboutTemplate from "../components/pages/About";
+import Layout from "../components/layouts/default";
 
 const AboutPage = ({ data }) => {
     const { seo, sections } = data.markdownRemark.frontmatter;
