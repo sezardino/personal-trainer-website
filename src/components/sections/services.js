@@ -15,11 +15,13 @@ const Services = ({ data }) => {
                 <ul className="services__list">
                     {list.map((item, index) => (
                         <li className="services__item" key={item.name + index}>
-                            <img
-                                src={item.image.publicURL}
-                                alt={item.name}
-                                className="services__item-img"
-                            />
+                            <div className="services__img-wrapper">
+                                <img
+                                    src={item.image.publicURL}
+                                    alt={item.name}
+                                    className="services__item-img"
+                                />
+                            </div>
                             <h3 className="hidden">{item.name}</h3>
                             <p className="services__item-text">
                                 {item.description}
