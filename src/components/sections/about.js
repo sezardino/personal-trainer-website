@@ -1,6 +1,5 @@
 import { Link } from "gatsby";
 import React from "react";
-import Img from "gatsby-image";
 
 const About = ({ data }) => {
     const { description, image, label, title, descriptionList } = data;

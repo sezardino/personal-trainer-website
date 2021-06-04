@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Layout from "../components/Layout";
+import Layout from "../components/layouts/default";
 import BlogTemplate from "../components/pages/Blog";
 
 const BlogPage = ({ data }) => {
@@ -66,7 +66,7 @@ const query = graphql`
                         date(formatString: "ll")
                         thumbnail {
                             childImageSharp {
-                                fluid(quality: 10) {
+                                fluid(quality: 100, maxHeight: 290) {
                                     src
                                 }
                             }

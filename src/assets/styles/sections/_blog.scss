@@ -29,15 +29,16 @@
 
   &__list {
     margin-top: 45px;
-
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 40px;
 
-    @include breakpoint-up("lg") {
+    @include breakpoint-up("md") {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include breakpoint-up("xl") {
       margin-top: 90px;
-      flex-direction: row;
-      justify-content: space-between;
+      grid-template-columns: repeat(3, 1fr);
       gap: 20px;
     }
   }

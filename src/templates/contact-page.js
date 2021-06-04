@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Layout from "../components/Layout";
+import Layout from "../components/layouts/default";
 import ContactPage from "../components/pages/Contact";
 
 const Contact = ({ data }) => {

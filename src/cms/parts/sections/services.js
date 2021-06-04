@@ -16,15 +16,15 @@ const services = {
             widget: "list",
             fields: [
                 {
-                    label: "Image",
-                    name: "image",
-                    widget: "image",
-                    required: false,
-                },
-                {
                     label: "Name of the service",
                     name: "name",
                     widget: "string",
+                    required: false,
+                },
+                {
+                    label: "Image",
+                    name: "image",
+                    widget: "image",
                     required: false,
                 },
                 {

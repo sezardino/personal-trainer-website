@@ -6,7 +6,7 @@ seo:
   image: trener.png
 sections:
   hero:
-    title: Trochę o mnie
+    title: Trochę informacji o mnie
     description: moja mała historja
     image: home-bg.jpg
   blog:

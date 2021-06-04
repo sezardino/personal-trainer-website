@@ -8,20 +8,19 @@ const partial = {
             label: "Title",
             name: "title",
             widget: "string",
-            required: false,
+            required: true,
         },
         {
             label: "Meta Description",
             name: "description",
             widget: "text",
-            required: false,
+            required: true,
         },
         {
             label: "Image",
             name: "image",
             widget: "image",
             required: true,
-            default: "",
         },
     ],
 };
