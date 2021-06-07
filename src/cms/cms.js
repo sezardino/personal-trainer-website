@@ -7,9 +7,9 @@ CMS.init({
     config: {
         load_config_file: false,
         backend: {
-            name: "git-gateway",
+            name: "github",
             branch: "master",
-            repo: "arechwa/personal-trainer-website",
+            repo: "sezardino/personal-trainer-website",
         },
         commit_messages: {
             create: "Create {{collection}} “{{slug}}”",

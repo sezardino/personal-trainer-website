@@ -23,24 +23,24 @@ sections:
   services:
     title: proponuje ci
     list:
-      - image: services.svg
-        name: Lorem
-        description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      - image: services.svg
-        name: Lorem
-        description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      - image: services.svg
-        name: Lorem
-        description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      - image: services.svg
-        name: Lorem
-        description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      - image: services.svg
-        name: Lorem
-        description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      - image: services.svg
-        name: Lorem
-        description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      - image: boots.svg
+        name: Normalny trening
+        description: "Prowadzenie treningu u ciebie w domu/na siłowni, albo na podwurku "
+      - image: trening.svg
+        name: Trening online
+        description: Prowadzenie trening online
+      - image: diet.svg
+        name: Plan żywieniowy
+        description: Napisanie indywidualnego planu żywieniowego
+      - image: size.svg
+        name: Program dieteczny
+        description: Prowadzenie I wsparcie dietetyczne
+      - image: heart.svg
+        name: Szkolenie z produktów
+        description: Szkolenie odnośnie wyboru produktów zywienia
+      - image: trening-plan.svg
+        name: Plan treningoowy
+        description: Napisanie indywidualnego programu treningowego
   blog:
     title: ostatnie wpisy
     label: wszystkie wpisy
