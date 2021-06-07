@@ -9,6 +9,7 @@ sections:
     title: Robert Arechwa
     description: trener personalny
     image: home-bg.jpg
+    titleFormat: breaking
   about:
     title: dlaczego ja
     description: >
