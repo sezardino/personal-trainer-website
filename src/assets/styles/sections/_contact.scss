@@ -1,5 +1,6 @@
 .contact {
   padding-top: 80px;
+  padding-bottom: 80px;
 
   &__container {
     display: flex;
@@ -23,22 +24,20 @@
   }
 
   &__text {
+    margin-top: 20px;
     margin-bottom: 54px;
 
     font-weight: 200;
     font-size: 2.1rem;
-    line-height: 3.4rem;
+    line-height: 3rem;
 
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.01rem;
 
     color: var(--main-fc);
   }
 
   &__wrapper {
     max-width: 700px;
-    @include breakpoint-up('xxl') {
-      max-width: 900px;
-    }
   }
 
   &__social {
@@ -95,7 +94,7 @@
   }
 
   &__field {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 1.9rem;
     line-height: 3.7rem;
     color: var(--second-fc);
@@ -106,6 +105,7 @@
 
   &__info {
     margin-left: 10px;
+    font-weight: 500;
 
     &:hover,
     &:active,

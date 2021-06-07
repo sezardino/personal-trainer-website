@@ -22,21 +22,21 @@ const ContactPage = () => {
                 <div className="contact__data">
                     <div className="contact__contact-data">
                         <p className="contact__field">
-                            Mail:
-                            <a
-                                href={`mailto:${data.mail}`}
-                                className="contact__info"
-                            >
-                                {data.mail}
-                            </a>
-                        </p>
-                        <p className="contact__field">
-                            Telefon:
+                            tel:
                             <a
                                 href={`tel:${data.tel}`}
                                 className="contact__info"
                             >
                                 {data.tel}
+                            </a>
+                        </p>
+                        <p className="contact__field">
+                            e-mail:
+                            <a
+                                href={`mailto:${data.mail}`}
+                                className="contact__info"
+                            >
+                                {data.mail}
                             </a>
                         </p>
                     </div>

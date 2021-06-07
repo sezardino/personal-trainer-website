@@ -12,7 +12,7 @@
     &__container {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
 
         @include breakpoint-up("lg") {
@@ -59,6 +59,7 @@
     &__title {
         font-size: 4rem;
         line-height: 5.1rem;
+        font-weight: 400;
         text-transform: uppercase;
         color: var(--third-fc);
 
@@ -81,7 +82,7 @@
         }
 
         @include breakpoint-up("lg") {
-            margin-top: 58px;
+            margin-top: 30px;
         }
     }
 

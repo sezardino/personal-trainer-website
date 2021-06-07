@@ -2,19 +2,20 @@ import React from "react";
 import { stringFormatting } from "../../utils";
 import Social from "../parts/social";
 
-const getTitleTemplate = (title) =>
-    stringFormatting.split(title).map((word) => {
+const getTitleTemplate = (title) =>{
+const wordsArr  = stringFormatting.split(title)
+    return wordsArr.map((word) => {
         return (
-            <span className="hero__title-line" key={word}>
+            <span className={`hero__title-line ${wordsArr.length === 1 ? 'hero__title-line--one': ''}`} key={word}>
                 <span className="hero__title-frst">
                     {stringFormatting.getFirstLetters(word)}
                 </span>
                 {stringFormatting.deleteFirstLetters(word)}
             </span>
         );
-    });
+    })};
 
-const Hero = ({ data }) => {
+const Hero = ({ data, isHome }) => {
     const { description, image, title } = data;
     let titleTemplate;
 
@@ -27,7 +28,7 @@ const Hero = ({ data }) => {
 
     return (
         <section
-            className="hero"
+            className={`hero${isHome ? ' hero--home' : ''}`}
             style={{
                 backgroundImage: `url(${
                     !!image.childImageSharp
