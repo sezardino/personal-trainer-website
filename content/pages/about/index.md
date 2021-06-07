@@ -6,10 +6,10 @@ seo:
   image: trener.png
 sections:
   hero:
-    title: Trochę informacji o mnie
+    title: O mnie
     description: moja mała historja
     image: home-bg.jpg
-    titleFormat: default
+    titleFormat: breaking
   blog:
     title: ostatnie wpisy
     label: zobacz wiecej
