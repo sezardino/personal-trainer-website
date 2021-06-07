@@ -16,6 +16,14 @@ const getTitleTemplate = (title) =>
 
 const Hero = ({ data }) => {
     const { description, image, title } = data;
+    let titleTemplate;
+
+    if (data.titleFormat) {
+        titleTemplate =
+            data.titleFormat === "breaking" ? getTitleTemplate(title) : title;
+    } else {
+        titleTemplate = getTitleTemplate(title);
+    }
 
     return (
         <section
@@ -30,7 +38,7 @@ const Hero = ({ data }) => {
         >
             <div className="container hero__container">
                 <h1 className="hero__title">
-                    {getTitleTemplate(title)}
+                    {titleTemplate}
                     <span className="hero__title-line hero__title-line--last">
                         {description}
                     </span>

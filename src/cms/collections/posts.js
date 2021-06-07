@@ -1,4 +1,5 @@
 import seo from "../parts/seo";
+import hero from "../parts/sections/hero";
 
 const collection = {
     name: "blog",
@@ -15,6 +16,7 @@ const collection = {
     path: "{{title}}/index",
     fields: [
         seo,
+        hero,
         {
             label: "Template Key",
             name: "templateKey",
