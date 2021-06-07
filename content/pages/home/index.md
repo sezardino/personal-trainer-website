@@ -12,13 +12,17 @@ sections:
     titleFormat: breaking
   about:
     title: dlaczego ja
-    description: >
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
-      consequatur nulla praesentium doloremque voluptatibus optio asperiores
-      quod neque iure, similiqufqfewe omnis animi ab odio incidunt
+    description: "\n"
     descriptionList:
-      - test 1
-      - test2
+      - "Pełne zaangażowanie podczas treningu "
+      - Tylko skuteczne cwiczenia
+      - Zapisywanie każdego treningu
+      - "Punktualność "
+      - "Koncentracja na twoich celach "
+      - "Miła atmosfera podczas zajęć "
+      - "Trening dostosowany do twoich możliwości "
+      - "Komfort i bezpieczeństwo "
+      - Opieka dietetyczna
     label: więcej o mnie
     image: trener.png
     button:
