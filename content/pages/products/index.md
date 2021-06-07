@@ -9,6 +9,7 @@ sections:
     title: Oferta
     description: Zobacz jakie pakiety albo usługo mogę ci zaproponować
     image: home-bg.jpg
+    titleFormat: default
   blog:
     title: ostatnie wpisy
     label: zobacz wiecej

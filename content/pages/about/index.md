@@ -9,6 +9,7 @@ sections:
     title: Trochę informacji o mnie
     description: moja mała historja
     image: home-bg.jpg
+    titleFormat: default
   blog:
     title: ostatnie wpisy
     label: zobacz wiecej
