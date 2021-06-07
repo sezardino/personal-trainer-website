@@ -12,7 +12,9 @@ sections:
     titleFormat: breaking
   about:
     title: dlaczego ja
-    description: "\n"
+    description: "Если ты сомневаешься, или не уверен какого тренера нужно выбрать и
+      при этом попал на мою страницу, можешь быть уверен что я (могу
+      гарантировать что со мной):"
     descriptionList:
       - "Pełne zaangażowanie podczas treningu "
       - Tylko skuteczne cwiczenia
