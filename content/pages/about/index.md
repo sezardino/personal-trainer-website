@@ -12,4 +12,11 @@ sections:
   blog:
     title: ostatnie wpisy
     label: zobacz wiecej
+  about:
+    button:
+      label: Skontaktuj się ze mną!
+      link: /contact
+    image: trener.png
+    title: Trochę informacji o mnie
+    description: " Jakiś tekst Jakiś tekst Jakiś tekst Jakiś tekst Jakiś tekst"
 ---
