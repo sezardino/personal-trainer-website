@@ -19,5 +19,10 @@ sections:
       link: /contact
     image: trener.png
     title: Trochę informacji o mnie
-    description: " Jakiś tekst Jakiś tekst Jakiś tekst Jakiś tekst Jakiś tekst"
+    description: Jestem sertyfikowanym trenerem personalnym I doradcą żywieniowym.
+      Moją pasją jest sport. Pierwszy trening na siłowni obudził we mnie głód
+      wiedzy i głębszego podejścia w tym kierunku. Sprawdzałem na siebie wiele
+      teorii s zakresu ćwiczeń i odżywiania, porady popularnych kulturystów,
+      najnowsze badania dotyczące ludzkiego ciała co pozwoliło mi stworzyć
+      fundament wiedzy który jest skuteczny w praktyce.
 ---
