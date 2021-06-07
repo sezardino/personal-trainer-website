@@ -20,6 +20,9 @@ sections:
       - test2
     label: więcej o mnie
     image: trener.png
+    button:
+      label: Wiecej
+      link: /about
   services:
     title: proponuje ci
     list:
