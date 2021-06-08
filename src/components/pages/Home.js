@@ -9,7 +9,7 @@ export const HomePage = ({ sections }) => {
     const { hero, about, services, blog } = sections;
     return (
         <>
-            <Hero data={hero} />
+            <Hero data={hero} extraClass='home' />
             <About data={about} />
             <Services data={services} />
             <Blog data={blog} />

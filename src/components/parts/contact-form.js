@@ -59,9 +59,6 @@ const ContactForm = () => {
         </label>
       </div>
       <div className="contact-form__field">
-        <label className="contact-form__label" htmlFor={"name"}>
-          Imię
-        </label>
         <div className="">
           <input
             className="contact-form__input input"
@@ -70,13 +67,11 @@ const ContactForm = () => {
             onChange={changeHandler}
             id={"name"}
             required={true}
+            placeholder="Imię"
           />
         </div>
       </div>
       <div className="contact-form__field">
-        <label className="contact-form__label" htmlFor={"contactData"}>
-          e-mail/telefon
-        </label>
         <div className="control">
           <input
             className="contact-form__input input"
@@ -85,13 +80,11 @@ const ContactForm = () => {
             onChange={changeHandler}
             id={"contactData"}
             required={true}
+            placeholder="e-mail/telefon"
           />
         </div>
       </div>
       <div className="contact-form__field">
-        <label className="contact-form__label" htmlFor={"message"}>
-          Wiadomość
-        </label>
         <div className="control">
           <textarea
             className="contact-form__textarea textarea"
@@ -99,6 +92,7 @@ const ContactForm = () => {
             onChange={changeHandler}
             id={"message"}
             required={true}
+            placeholder="Wiadomość"
           />
         </div>
       </div>

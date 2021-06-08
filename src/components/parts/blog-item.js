@@ -12,13 +12,13 @@ const BlogItem = ({ data }) => {
             <Link to={slug} className="blog-item__img-wrapper">
                 <img
                     src={thumbnail.childImageSharp.fluid.src}
-                    alt=""
+                    alt={title}
                     className="blog-item__img"
                 />
             </Link>
             <div className="blog-item__wrapper">
                 <h3 className="blog-item__title">
-                    <Link to="some">{title}</Link>
+                    <Link to={slug}>{title}</Link>
                 </h3>
                 <p className="blog-item__time">
                     <span className="hidden">data publikacji wpisu</span>

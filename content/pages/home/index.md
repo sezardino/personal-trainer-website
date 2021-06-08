@@ -11,15 +11,24 @@ sections:
     image: home-bg.jpg
   about:
     title: dlaczego ja
-    description: >
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
-      consequatur nulla praesentium doloremque voluptatibus optio asperiores
-      quod neque iure, similiqufqfewe omnis animi ab odio incidunt
+    description: "Если ты сомневаешься, или не уверен какого тренера нужно выбрать и
+      при этом попал на мою страницу, можешь быть уверен что я (могу
+      гарантировать что со мной):"
     descriptionList:
-      - test 1
-      - test2
+      - "Pełne zaangażowanie podczas treningu "
+      - Tylko skuteczne cwiczenia
+      - Zapisywanie każdego treningu
+      - "Punktualność "
+      - "Koncentracja na twoich celach "
+      - "Miła atmosfera podczas zajęć "
+      - "Trening dostosowany do twoich możliwości "
+      - "Komfort i bezpieczeństwo "
+      - Opieka dietetyczna
     label: więcej o mnie
     image: trener.png
+    button:
+      label: Wiecej
+      link: /about
   services:
     title: proponuje ci
     list:

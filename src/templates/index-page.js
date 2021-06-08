@@ -43,6 +43,10 @@ const query = graphql`
                     about {
                         description
                         descriptionList
+                        button {
+                            label
+                            link
+                        }
                         image {
                             childImageSharp {
                                 fluid(quality: 100) {

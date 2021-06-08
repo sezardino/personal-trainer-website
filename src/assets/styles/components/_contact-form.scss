@@ -1,5 +1,4 @@
 .contact-form {
-  padding-bottom: 80px;
   &__label {
     font-weight: 300;
     font-size: 2rem;
@@ -14,11 +13,11 @@
   &__input,
   &__textarea {
     width: 100%;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
 
     padding: 12px;
 
-    border: 0.01px solid var(--fourth-fc);
+    border: 0.01px solid rgba(#000, 0.2);
     box-sizing: border-box;
     border-radius: 5px;
   }

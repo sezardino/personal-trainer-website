@@ -1,10 +1,12 @@
 module.exports = {
     siteMetadata: {
         title: "Robert Arechwa - Trener Personalny",
+        siteUrl: "https://ar-trener.netlify.app/",
         description: `Hej, mam na imie Robert Arechwa, jestem trenerem personalnym, pomoge ci zadbać o swoją sylwetke.
         Prowadze treningi personalne, oraz mogę rospisać dla ciebię diete`,
     },
     plugins: [
+        "gatsby-plugin-sitemap",
         "gatsby-plugin-sass",
         "gatsby-plugin-sharp",
         "gatsby-plugin-react-helmet",

@@ -3,22 +3,16 @@ import React from "react";
 import Hero from "../sections/hero";
 
 export const PostPage = ({ data }) => {
-    const {
-        date,
-        excerpt: description,
-        title,
-        thumbnail: image,
-    } = data.markdownRemark.frontmatter;
+    console.log(data);
+    const { title, thumbnail, excerpt } = data.markdownRemark.frontmatter;
     const heroProps = {
-        description,
-        image,
         title,
-        date,
+        image: thumbnail,
+        description: excerpt,
     };
-    // const { hero, blog } = sections;
     return (
         <>
-            <Hero data={heroProps} />
+            <Hero data={heroProps} extraClass="post" />
             <section className="container post">
                 <h2 className="hidden">{title}</h2>
                 <div

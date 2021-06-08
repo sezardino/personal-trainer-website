@@ -40,6 +40,22 @@ const query = graphql`
                         }
                         title
                     }
+                    about {
+                        title
+                        description
+                        descriptionList
+                        button {
+                            label
+                            link
+                        }
+                        image {
+                            childImageSharp {
+                                fluid(quality: 100) {
+                                    src
+                                }
+                            }
+                        }
+                    }
                     blog {
                         label
                         title
