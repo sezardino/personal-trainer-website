@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import useMeta from "../hooks/useMeta";
 
-const Seo = ({ data }) => {
+const Seo = ({ data, isHome }) => {
     const meta = useMeta();
     const { images } = meta;
 
@@ -12,6 +12,12 @@ const Seo = ({ data }) => {
             <html lang="pl" />
             <title>{title}</title>
             <meta name="description" content={meta.description} />
+            {isHome && (
+                <meta
+                    name="google-site-verification"
+                    content="-9i1BR1MqAdyrjdddRtvQEtXN1Xa9hPv1XyyJa2qXw8"
+                />
+            )}
 
             <link
                 rel="apple-touch-icon"
