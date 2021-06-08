@@ -31,18 +31,6 @@ const query = graphql`
                 title
                 excerpt
                 date(formatString: "ll")
-                hero {
-                    description
-                    title
-                    titleFormat
-                    image {
-                        childImageSharp {
-                            fluid(quality: 100) {
-                                src
-                            }
-                        }
-                    }
-                }
                 thumbnail {
                     childImageSharp {
                         fluid(quality: 100) {
