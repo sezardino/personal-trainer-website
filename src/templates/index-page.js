@@ -7,7 +7,7 @@ import HomePage from "../components/pages/Home";
 const IndexPage = ({ data }) => {
     const { sections, seo } = data.markdownRemark.frontmatter;
     return (
-        <Layout seo={seo}>
+        <Layout seo={seo} isHome={true}>
             <HomePage sections={sections} />
         </Layout>
     );
