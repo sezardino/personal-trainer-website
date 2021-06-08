@@ -11,12 +11,6 @@ const hero = {
             required: false,
         },
         {
-            label: "Title format",
-            name: "titleFormat",
-            widget: "select",
-            options: ["default", "breaking"],
-        },
-        {
             label: "Subtitle",
             name: "description",
             widget: "text",
