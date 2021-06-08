@@ -9,7 +9,6 @@ sections:
     title: Robert Arechwa
     description: trener personalny
     image: home-bg.jpg
-    titleFormat: breaking
   about:
     title: dlaczego ja
     description: "Если ты сомневаешься, или не уверен какого тренера нужно выбрать и

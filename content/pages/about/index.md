@@ -9,7 +9,6 @@ sections:
     title: O mnie
     description: moja mała historja
     image: home-bg.jpg
-    titleFormat: breaking
   blog:
     title: ostatnie wpisy
     label: zobacz wiecej
@@ -27,9 +26,9 @@ sections:
       badania dotyczące ludzkiego ciała co pozwoliło mi stworzyć fundament
       wiedzy który jest skuteczny w praktyce.
 
-      W codziennym życiu nie mogę bez aktywności rower/rolki/wycieczki. 
+      W codziennym życiu nie mogę bez aktywności rower/rolki/wycieczki.
 
-      Lubię zwiedzać nowe miejsca,  wybierać się w góry. 
+      Lubię zwiedzać nowe miejsca,  wybierać się w góry.
 
       Pracuje z ludźmi którzy wiedzą czego chcą. Zmienić swój styl życia, sylwetkę, wdrążyć w swóje życie prawidłowych nawyków.
 ---

@@ -12,7 +12,6 @@ seo:
     realizacji druków na komputerach osobistych, jak Aldus PageMaker
 hero:
   title: Czemu trzeba uprawiać sport
-  titleFormat: default
   image: og.jpg
   description: Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w
     przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez

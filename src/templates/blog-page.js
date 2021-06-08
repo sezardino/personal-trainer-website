@@ -49,7 +49,6 @@ const query = graphql`
                             }
                         }
                         title
-                        titleFormat
                     }
                 }
             }

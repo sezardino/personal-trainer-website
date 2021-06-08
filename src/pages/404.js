@@ -18,7 +18,6 @@ const query = graphql`
                 hero {
                     description
                     title
-                    titleFormat
                     image {
                         childImageSharp {
                             fluid(quality: 100) {

@@ -9,5 +9,4 @@ sections:
     title: Ostatnie wpisy
     description: Tu znajdziesz fajne artykuły albo porady o zdrowiu
     image: home-bg.jpg
-    titleFormat: breaking
 ---
