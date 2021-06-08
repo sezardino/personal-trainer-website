@@ -2,26 +2,12 @@
 seo:
   image: dan-gold-4_jhdo54byg-unsplash.jpg
   title: Zdrowe odżywianie
-  description: Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w
-    przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez
-    nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków
-    później zaczął być używany przemyśle elektronicznym, pozostając praktycznie
-    niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją
-    arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z
-    zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do
-    realizacji druków na komputerach osobistych, jak Aldus PageMaker
+  description: Zdrowie odżywianie, czemu lepiej nie jeść burgerów
 templateKey: blog-post
 title: Zdrowe odżywianie
 thumbnail: dan-gold-4_jhdo54byg-unsplash.jpg
 date: 2021-06-02T06:58:18.598Z
-excerpt: Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w
-  przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez
-  nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków
-  później zaczął być używany przemyśle elektronicznym, pozostając praktycznie
-  niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy
-  Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym
-  różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na
-  komputerach osobistych, jak Aldus PageMaker
+excerpt: Zdrowie odżywianie, czemu lepiej nie jeść burgerów
 ---
 ## Czym jest Lorem Ipsum?
 
