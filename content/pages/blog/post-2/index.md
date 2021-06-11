@@ -16,26 +16,32 @@ hero:
   image: home-bg.jpg
 templateKey: blog-post
 title: Po co jest potrzebny personalny trener
-thumbnail: home-bg.jpg
-date: 2021-06-03T06:56:11.555Z
+thumbnail: karsten-winegeart-0wra5yyvqje-unsplash.jpg
+date: 2021-06-03T06:56:00.000Z
 excerpt: Czemu jest lepiej mieć personalnego trenera, niż go nie mieć
 ---
-## Czym jest Lorem Ipsum?
+Ucząc się nowych rzeczy mamy zasadniczo dwie możliwości rozwoju: szukanie wiedzy na własną rękę lub skorzystanie z pomocy osoby, która jest specjalistą w danej dziedzinie. Niezależnie od tego, na jaki temat szukamy wiedzy lub odpowiedzi, można znaleźć w sieci masę niezbędnych informacji i próbować je wykorzystać w praktyce. W takim razie po co korzystać z pomocy np. trenera osobistego, jeśli ogrom wiedzy jest na wyciągnięcie ręki?\
+Samo posiadanie wiedzy nie sprawi, że osiągniesz wyznaczony cel. Daną wiedzę trzeba umieć umiejętnie wykorzystać i wdrożyć. Dodatkowo wiele mitów związanych z dietami i treningami w niektórych przypadkach może okazać się niebezpieczne, dlatego warto zaufać profesjonalistom. To właśnie instruktor pomoże Ci osiągnąć wyznaczony cel przy zachowaniu bezpieczeństwa i zdrowia.
 
-**Lorem Ipsum** jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker
+## Współpraca z trenerem osobistym
 
-## Do czego tego użyć?
+\
+Głównym zadaniem instruktora jest realizacja indywidualnego planu podopiecznego, który oparty jest o dokładny wywiad zawierający wszystkie istotne informacje o osobie trenującej.
 
-Ogólnie znana teza głosi, iż użytkownika może rozpraszać zrozumiała zawartość strony, kiedy ten chce zobaczyć sam jej wygląd. Jedną z mocnych stron używania Lorem Ipsum jest to, że ma wiele różnych „kombinacji” zdań, słów i akapitów, w przeciwieństwie do zwykłego: „tekst, tekst, tekst”, sprawiającego, że wygląda to „zbyt czytelnie” po polsku. Wielu webmasterów i designerów używa Lorem Ipsum jako domyślnego modelu tekstu i wpisanie w internetowej wyszukiwarce ‘lorem ipsum’ spowoduje znalezienie bardzo wielu stron, które wciąż są w budowie. Wiele wersji tekstu ewoluowało i zmieniało się przez lata, czasem przez przypadek, czasem specjalnie (humorystyczne wstawki itd).
+\
+Najpowszechniejszą formą współpracy są wspólne godzinne treningi, w trakcie których podopieczny wykonuje dane ćwiczenia pod okiem swojego indywidualnego instruktora. Za pomocą takiej formy współpracy specjalista może kontrolować dane ćwiczenia, zapewnić bezpieczeństwo i motywację. Trening w takiej formie polecany jest szczególnie osobom, które:
 
-![Trener](edgar-chaparro-shfo3woggtu-unsplash.jpg "trener")
+• są początkujące;\
+• mają problemy zdrowotne;\
+• nie posiadają wystarczającej motywacji do ćwiczeń.
 
-## Skąd się to wzięło?
+![treningi z trenerem](jonathan-borba-r0y_beujiom-unsplash.jpg "Czemu warto mieć trenera")
 
-W przeciwieństwie do rozpowszechnionych opinii, Lorem Ipsum nie jest tylko przypadkowym tekstem. Ma ono korzenie w klasycznej łacińskiej literaturze z 45 roku przed Chrystusem, czyli ponad 2000 lat temu! Richard McClintock, wykładowca łaciny na uniwersytecie Hampden-Sydney w Virginii, przyjrzał się uważniej jednemu z najbardziej niejasnych słów w Lorem Ipsum – consectetur – i po wielu poszukiwaniach odnalazł niezaprzeczalne źródło: Lorem Ipsum pochodzi z fragmentów (1.10.32 i 1.10.33) „de Finibus Bonorum et Malorum”, czyli „O granicy dobra i zła”, napisanej właśnie w 45 p.n.e. przez Cycerona. Jest to bardzo popularna w czasach renesansu rozprawa na temat etyki. Pierwszy wiersz Lorem Ipsum, „Lorem ipsum dolor sit amet...” pochodzi właśnie z sekcji 1.10.32.
-
-Standardowy blok Lorem Ipsum, używany od XV wieku, jest odtworzony niżej dla zainteresowanych. Fragmenty 1.10.32 i 1.10.33 z „de Finibus Bonorum et Malorum” Cycerona, są odtworzone w dokładnej, oryginalnej formie, wraz z angielskimi tłumaczeniami H. Rackhama z 1914 roku.
-
-## Skąd to wziąć?
-
-Jest dostępnych wiele różnych wersji Lorem Ipsum, ale większość zmieniła się pod wpływem dodanego humoru czy przypadkowych słów, które nawet w najmniejszym stopniu nie przypominają istniejących. Jeśli masz zamiar użyć fragmentu Lorem Ipsum, lepiej mieć pewność, że nie ma niczego „dziwnego” w środku tekstu. Wszystkie Internetowe generatory Lorem Ipsum mają tendencje do kopiowania już istniejących bloków, co czyni nasz pierwszym prawdziwym generatorem w Internecie. Używamy zawierającego ponad 200 łacińskich słów słownika, w kontekście wielu znanych sentencji, by wygenerować tekst wyglądający odpowiednio. To wszystko czyni „nasz” Lorem Ipsum wolnym od powtórzeń, humorystycznych wstawek czy niecharakterystycznych słów.
+\
+\
+Plan treningowy nadal jest przygotowany przez instruktora, jednak to podopieczny w oparciu o zalecenie musi wykonywać ćwiczenia bez dokładnego nadzoru jak w przypadku treningów na żywo. Taka forma współpracy polecana jest osobom, które:\
+• mają silną motywację do samodzielnych treningów;\
+• potrafią w odpowiedni sposób wykonywać dane ćwiczenia;\
+• potrzebują jedynie okazjonalnej konsultacji z trenerem osobistym.\
+\
+Znając swoje predyspozycje warto wybrać najlepszą jak dla nas formę współpracy.
