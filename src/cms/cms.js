@@ -7,7 +7,7 @@ CMS.init({
     config: {
         load_config_file: false,
         backend: {
-            name: "github",
+            name: "git-gataway",
             branch: "master",
             repo: "arechwa/personal-trainer-website",
         },
