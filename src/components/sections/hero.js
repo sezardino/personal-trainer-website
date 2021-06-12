@@ -24,7 +24,6 @@ const getTitleTemplate = (title) => {
 const Hero = ({ data, extraClass }) => {
     const { description, image, title } = data;
     let titleTemplate;
-
     if (extraClass === "home") {
         titleTemplate = (
             <h1 className="hero__title">
@@ -34,6 +33,14 @@ const Hero = ({ data, extraClass }) => {
                 </span>
             </h1>
         );
+    } else if(extraClass === "post") {
+        titleTemplate = (
+            <>
+                <h1 className="hero__title">{title}</h1>
+                <p className="hero__title-line hero__title-line--last">
+                    {description}
+                </p>
+            </>)
     } else {
         titleTemplate = (
             <>
@@ -45,11 +52,13 @@ const Hero = ({ data, extraClass }) => {
         );
     }
 
+    const gradient = 'linear-gradient(180deg, rgba(0,0,0,0.5606617647058824) 0%, rgba(0,0,0,0.4290091036414566) 100%)';
+
     return (
         <section
             className={`hero${extraClass ? " hero--" + extraClass : ""}`}
             style={{
-                backgroundImage: `url(${
+                backgroundImage: `${gradient}, url(${
                     !!image.childImageSharp
                         ? image.childImageSharp.fluid.src
                         : image.publicURL

@@ -119,3 +119,12 @@
     letter-spacing: 0.5rem;
   }
 }
+
+.hero--post {
+  .hero {
+    &__title {
+      font-weight: 400;
+      max-width: 1000px;
+    }
+  }
+}
