@@ -5,7 +5,7 @@ seo:
   description: Rozciąganie
 templateKey: blog-post
 title: Rozciąganie to ważny element treningu
-thumbnail: ""
+thumbnail: stretching.jpg
 date: 2021-07-10T22:00:00.000Z
 excerpt: Rozciąganie
 ---
