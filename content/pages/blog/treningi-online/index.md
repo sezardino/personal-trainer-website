@@ -1,30 +1,37 @@
 ---
 seo:
-  image: pj-gal-szabo-u8knv-0dcs0-unsplash.jpg
-  title: Treningi online
-  description: Treningi online, co to jest, i czemu to nie jest zły pomysł
+  image: online.jpg
+  title: Online triningi
+  description: Online treningi
 templateKey: blog-post
 title: Treningi online
-thumbnail: pj-gal-szabo-u8knv-0dcs0-unsplash.jpg
-date: 2021-06-01T07:00:34.473Z
-excerpt: Treningi online, co to jest, i czemu to nie jest zły pomysł
+thumbnail: online.jpg
+date: 2021-06-12T22:00:00.000Z
+excerpt: Treningi online
 ---
-## Czym jest Lorem Ipsum?
+Dlaczego warto ćwiczyć online?
 
-**Lorem Ipsum** jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker
+Żyjemy w czasach, w których coraz więcej spraw możemy załatwić przez internet. Nie da się ukryć, że jest to niezwykle wygodna i kusząca forma. Także współpraca z trenerem personalnym online staje się coraz częstszą metodą treningową wybieraną przez wiele aktywnych osób. Taki rodzaj relacji między trenerem a trenującym przynosi wiele wymiernych korzyści.
 
-## Do czego tego użyć?
+Zalety treningu personalnego online
 
-Ogólnie znana teza głosi, iż użytkownika może rozpraszać zrozumiała zawartość strony, kiedy ten chce zobaczyć sam jej wygląd. Jedną z mocnych stron używania Lorem Ipsum jest to, że ma wiele różnych „kombinacji” zdań, słów i akapitów, w przeciwieństwie do zwykłego: „tekst, tekst, tekst”, sprawiającego, że wygląda to „zbyt czytelnie” po polsku. Wielu webmasterów i designerów używa Lorem Ipsum jako domyślnego modelu tekstu i wpisanie w internetowej wyszukiwarce ‘lorem ipsum’ spowoduje znalezienie bardzo wielu stron, które wciąż są w budowie. Wiele wersji tekstu ewoluowało i zmieniało się przez lata, czasem przez przypadek, czasem specjalnie (humorystyczne wstawki itd).
+Trening personalny online oczywiście nie zakłada żadnego kontaktu face to face z naszym coachem. Nie oznacza to jednak, iż po otrzymaniu planu treningowego jesteśmy pozostawieni sami sobie. Współpraca online polega na ciągłym kontakcie mailowym bądź telefonicznym z trenerem. Wstępna szczegółowa rozmowa oraz ciągłe monitorowanie postępów trenującego zapewniają stałą opiekę nad całym procesem treningowym. Dla wielu osób trening personalny online to brak stresu związanego z fizyczną obecnością trenera przy zachowaniu jednoczesnej kontroli ze strony coacha. Poza tym treningi wykonujemy wtedy, gdy mamy taką możliwość, a to z kolei spora zaleta dla osób ceniących sobie niezależność.
 
-![yoda](1_mk1-6ayaf_bes1e3imhc0a.jpeg "yoda")
+Do głównych zalet treningów online zaliczamy:\
+• oszczędność czasu,\
+• oszczędność pieniędzy,\
+• wygodę,\
+• niezależność,\
+• stały kontakt z trenerem.
 
-## Skąd się to wzięło?
+Możliwości współpracy online z trenerem personalnym
 
-W przeciwieństwie do rozpowszechnionych opinii, Lorem Ipsum nie jest tylko przypadkowym tekstem. Ma ono korzenie w klasycznej łacińskiej literaturze z 45 roku przed Chrystusem, czyli ponad 2000 lat temu! Richard McClintock, wykładowca łaciny na uniwersytecie Hampden-Sydney w Virginii, przyjrzał się uważniej jednemu z najbardziej niejasnych słów w Lorem Ipsum – consectetur – i po wielu poszukiwaniach odnalazł niezaprzeczalne źródło: Lorem Ipsum pochodzi z fragmentów (1.10.32 i 1.10.33) „de Finibus Bonorum et Malorum”, czyli „O granicy dobra i zła”, napisanej właśnie w 45 p.n.e. przez Cycerona. Jest to bardzo popularna w czasach renesansu rozprawa na temat etyki. Pierwszy wiersz Lorem Ipsum, „Lorem ipsum dolor sit amet...” pochodzi właśnie z sekcji 1.10.32.
+Jakie są trzy podstawowe możliwości nawiązania współpracy z trenerem personalnym online?
 
-Standardowy blok Lorem Ipsum, używany od XV wieku, jest odtworzony niżej dla zainteresowanych. Fragmenty 1.10.32 i 1.10.33 z „de Finibus Bonorum et Malorum” Cycerona, są odtworzone w dokładnej, oryginalnej formie, wraz z angielskimi tłumaczeniami H. Rackhama z 1914 roku.
+• Trening personalny - to trwające zwykle około godziny spotkanie przy pomocy wybranej aplikacji typu Skype/Messenger. Podczas treningu coach zadba o prawidłową technikę wykonywania poszczególnych ćwiczeń, właściwe ułożenie ciała oraz odpowiednią motywację.\
+• Współpraca online - jest to stała współpraca z wybranym trenerem personalnym, która polega na systematycznej kontroli osiąganych rezultatów. Obejmuje ona specjalnie przygotowany indywidualny plan treningowy i żywieniowy odpowiadający osobistym potrzebom osoby trenującej. Zaletą tej formy współpracy jest możliwość odbywania zdalnych sesji, stały kontakt z trenerem oraz bieżąca kontrola postępów.\
+• Indywidualny plan treningowy lub żywieniowy - opcja ta zakłada otrzymanie indywidualnego planu dotyczącego ćwiczeń lub diety, który pomoże szybciej zbudować siłę i masę mięśniową lub zgubić nadprogramowe kilogramy. Przygotowany plan uwzględnia upodobania żywieniowe, warunki zdrowotne oraz obrane cele treningowe osoby trenującej.
 
-## Skąd to wziąć?
+Trening personalny online - dla kogo?
 
-Jest dostępnych wiele różnych wersji Lorem Ipsum, ale większość zmieniła się pod wpływem dodanego humoru czy przypadkowych słów, które nawet w najmniejszym stopniu nie przypominają istniejących. Jeśli masz zamiar użyć fragmentu Lorem Ipsum, lepiej mieć pewność, że nie ma niczego „dziwnego” w środku tekstu. Wszystkie Internetowe generatory Lorem Ipsum mają tendencje do kopiowania już istniejących bloków, co czyni nasz pierwszym prawdziwym generatorem w Internecie. Używamy zawierającego ponad 200 łacińskich słów słownika, w kontekście wielu znanych sentencji, by wygenerować tekst wyglądający odpowiednio. To wszystko czyni „nasz” Lorem Ipsum wolnym od powtórzeń, humorystycznych wstawek czy niecharakterystycznych słów.
+Trening personalny online to doskonałe rozwiązanie dla osób posiadających już jakieś doświadczenie i wiedzę na temat prawidłowej techniki wykonywania ćwiczeń. Jeśli natomiast jesteś na samym początku swojej drogi, możliwe że dobrą opcją będzie odbycie kilku stacjonarnych sesji z trenerem personalnym. Podczas tych zajęć nauczymy się prawidłowo wykonywać wszelkie ćwiczenia oraz właściwie ustawiać ciało a doświadczony coach zadba o nasze bezpieczeństwo. Ponadto będzie to zdecydowanie łatwiejszy start i większa początkowa motywacja do rozpoczęcia drogi do osiągnięcia zamierzonych celów. Po zdobyciu takiego cennego doświadczenia bez problemu odnajdziesz się w świecie treningów personalnych online. Drugą grupą osób, dla których trening personalny online okaże się zbawieniem są ci, którzy cierpią na permanentny brak czasu. Treningi wirtualne dają bowiem zdecydowanie więcej swobody w kwestii planowania sesji treningowych. A co jeśli mieszkasz na obszarze oddalonym od miasta i nie masz możliwości uczęszczać na regularne spotkania z trenerem? Opcja treningów online to strzał w dziesiątkę także i w Twoim przypadku.
