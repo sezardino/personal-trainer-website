@@ -72,6 +72,9 @@
         &__list {
             flex-direction: column;
             text-align: center;
+            @include breakpoint-up("lg") {
+                flex-direction: row;
+            }
         }
         &__item {
             font-size: 1.5rem;

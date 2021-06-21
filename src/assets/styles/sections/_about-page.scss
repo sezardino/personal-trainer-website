@@ -1,0 +1,26 @@
+.about-page {
+    &__container {
+        background-color: white;
+        padding-top: 90px;
+        position: relative;
+        z-index: 1;
+        top: -60px;
+    }
+    &__wrapper {
+        max-width: 946px;
+        margin: 0 auto;
+
+        font-weight: 300;
+        font-size: 1.5rem;
+        line-height: 2.7rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    &__button {
+        margin-top: 109px;
+        margin-left: auto;
+    }
+}
