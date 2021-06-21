@@ -1,41 +1,47 @@
 .social {
-  max-width: 250px;
-  &__list {
-    display: flex;
-  }
-  &__item {
-    width: 100%;
-    &:not(:last-child) {
-      margin-right: 40px;
+    max-width: 250px;
+
+    &__list {
+        display: flex;
+        gap: 30px;
     }
-  }
+    &__item {
+        width: 100%;
 
-  &__link {
-    padding: 10px;
-    border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        &:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
 
-    display: flex;
-    align-items: center;
-    justify-items: center;
-  }
+    &__link {
+        border-radius: 50%;
 
-  &__link-icon {
-    width: 25px;
-    height: 25px;
-  }
+        display: flex;
+        align-items: center;
+        justify-items: center;
+
+        position: relative;
+    }
+
+    &__link-icon {
+        width: 25px;
+        height: 25px;
+    }
 }
 
 .social--hero {
-  .social__list {
-    flex-direction: column;
-    @include breakpoint-up("md") {
-      flex-direction: row;
+    @include breakpoint-up("lg") {
+        max-width: 30px;
     }
-  }
-  .social__item {
-    margin-right: 0;
-    @include breakpoint-up('md') {
-      margin-right: 40px;
+    .social__list {
+        @include breakpoint-up("lg") {
+            flex-direction: column;
+        }
     }
-  }
+    .social__item {
+        margin-right: 0;
+    }
 }

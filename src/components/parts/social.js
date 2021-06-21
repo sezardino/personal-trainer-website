@@ -10,6 +10,7 @@ const SOCIAL_ICONS = {
     instagram,
     facebook,
     vk,
+    whatsapp,
 };
 
 const query = graphql`
@@ -20,6 +21,7 @@ const query = graphql`
                     facebook
                     instagram
                     vk
+                    whatsapp
                 }
             }
         }

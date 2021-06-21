@@ -1,130 +1,112 @@
 .hero {
-  padding-top: 150px;
-  min-height: 400px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: var(--second-color);
+    padding-top: 150px;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--second-color);
 
-  position: relative;
-
-  @include breakpoint-up("sm") {
-    min-height: 500px;
-  }
-  @include breakpoint-up("md") {
-    min-height: 690px;
-  }
-
-  &__container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  &__title {
-    margin: 0;
-
-    text-transform: uppercase;
-    color: var(--third-fc);
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    font-size: 5rem;
-    line-height: 5rem;
-    font-weight: 200;
+    position: relative;
 
     @include breakpoint-up("sm") {
-      font-size: 7.5rem;
-      line-height: 7rem;
+        min-height: 500px;
     }
     @include breakpoint-up("md") {
-      font-size: 9.5rem;
-      line-height: 8rem;
-    }
-  }
-
-  &__title-frst {
-    font-weight: 600;
-  }
-
-  &__title-line {
-    &:first-child {
-      margin-left: 20px;
-      @include breakpoint-up("lg") {
-        margin-left: 52px;
-      }
-    }
-    &--one {
-      margin-left: 0;
-      &:first-child {
-        margin-left: 0;
-      }
-    }
-  }
-
-  &__title-line--last {
-    text-transform: lowercase;
-    font-weight: 200;
-    color: var(--second-fc);
-    font-size: 2.3rem;
-    line-height: 2.2rem;
-    max-width: 700px;
-
-    @include breakpoint-up("lg") {
-      font-size: 3.5rem;
-      line-height: 4.2rem;
-      letter-spacing: 0.2rem;
-
-      margin-top: 20px;
-    }
-  }
-
-  &__social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color: var(--third-fc);
-
-    position: absolute;
-    bottom: 0;
-    right: 0;
-
-    @include breakpoint-up("md") {
-      width: 100%;
-      max-width: 400px;
-      min-height: 150px;
-
-      bottom: -20px;
-      right: 0;
+        min-height: 690px;
     }
 
-    @include breakpoint-up("lg") {
-      max-width: 613px;
-
-      bottom: -43px;
-      right: 0;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
     }
-  }
+
+    &__title {
+        margin: 0;
+
+        text-transform: uppercase;
+        color: var(--third-fc);
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        font-size: 5rem;
+        line-height: 5rem;
+        font-weight: 200;
+
+        @include breakpoint-up("sm") {
+            font-size: 7.5rem;
+            line-height: 7rem;
+        }
+        @include breakpoint-up("md") {
+            font-size: 9.5rem;
+            line-height: 8rem;
+        }
+    }
+
+    &__title-frst {
+        font-weight: 600;
+    }
+
+    &__title-line {
+        &:first-child {
+            margin-left: 20px;
+            @include breakpoint-up("lg") {
+                margin-left: 52px;
+            }
+        }
+        &--one {
+            margin-left: 0;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    &__title-line--last {
+        text-transform: lowercase;
+        font-weight: 200;
+        color: var(--second-fc);
+        font-size: 2.3rem;
+        line-height: 2.2rem;
+        max-width: 700px;
+
+        @include breakpoint-up("lg") {
+            font-size: 3.5rem;
+            line-height: 4.2rem;
+            letter-spacing: 0.2rem;
+
+            margin-top: 20px;
+        }
+    }
+
+    &__social {
+        margin-top: 20px;
+        @include breakpoint-up("lg") {
+            position: absolute;
+            right: 0;
+        }
+    }
 }
 
 .hero--home {
-  .hero__title-frst {
-    font-weight: 800;
-  }
-  .hero__title-line--last {
-    font-size: 4.3rem;
-    line-height: 5.2rem;
-    letter-spacing: 0.5rem;
-  }
+    .hero__title-frst {
+        font-weight: 800;
+    }
+    .hero__title-line--last {
+        margin-top: 10px;
+        font-size: 2.9rem;
+        line-height: 3.6rem;
+        letter-spacing: 0.1rem;
+    }
 }
 
 .hero--post {
-  .hero {
-    &__title {
-      font-weight: 400;
-      max-width: 1000px;
+    .hero {
+        &__title {
+            font-weight: 400;
+            max-width: 1000px;
+        }
     }
-  }
 }
