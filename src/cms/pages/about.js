@@ -23,7 +23,14 @@ const page = {
             name: "sections",
             widget: "object",
             required: false,
-            fields: [hero, about, blog],
+            fields: [hero],
+        },
+        {
+            label: "Body",
+            name: "body",
+            widget: "markdown",
+            default: "",
+            required: false,
         },
     ],
 };
