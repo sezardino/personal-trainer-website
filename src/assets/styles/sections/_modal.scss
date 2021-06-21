@@ -1,0 +1,37 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 3;
+
+    display: none;
+
+    background-color: rgba($color: #000000, $alpha: 0.8);
+
+    &__overflow {
+        width: 100%;
+        height: 100%;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &__inner {
+        margin: auto;
+        z-index: 2;
+    }
+
+    &__title {
+    }
+
+    &__img {
+    }
+}
+
+.modal--show {
+    display: flex;
+}

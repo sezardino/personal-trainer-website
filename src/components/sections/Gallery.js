@@ -1,26 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "../parts/modal";
 
 const Gallery = ({ data }) => {
-    const { description, image, button, title } = data;
+    const { list, title } = data;
+    const [modal, setModal] = useState(null);
+    const [modalShow, setModalShow] = useState(false);
+
+    const itemClickHandler = (item) => {
+        setModal(item);
+        setModalShow(true);
+    };
+
+    const closeHandler = () => {
+        setModal(null);
+        setModalShow(false);
+    };
+
     return (
-        <section className="about">
-            <div className="container about__container">
-                <img
-                    src={image.childImageSharp.fluid.src}
-                    alt="to ja"
-                    className="about__image-wrapper"
-                />
-                <div className="about__description">
-                    <h2 className="about__title">{title}</h2>
-                    <p className="about__text">{description}</p>
-                    <Link
-                        to={button.link}
-                        className="button button--primary about__button"
-                    >
-                        {button.label}
-                    </Link>
-                </div>
+        <section className="gallery">
+            <div className="gallery__container container">
+                <h2 className="gallery__title">{title}</h2>
+                <ul className="gallery__list">
+                    {list.map((item) => {
+                        return (
+                            <li
+                                className="gallery__item"
+                                key={item.name}
+                                onClick={() => itemClickHandler(item)}
+                            >
+                                {/* <h3 className="gallery__item-title">
+                                    {item.name}
+                                </h3> */}
+                                <img
+                                    src={item.image.childImageSharp.fluid.src}
+                                    alt={item.name}
+                                    className="gallery__item-image"
+                                />
+                            </li>
+                        );
+                    })}
+                </ul>
             </div>
+            <Modal data={modal} show={modalShow} closeHandler={closeHandler} />
         </section>
     );
 };

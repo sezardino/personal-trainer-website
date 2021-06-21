@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "gatsby";
 
 import Hero from "../sections/hero";
+import Gallery from "../sections/gallery";
 
 export const AboutPage = ({ sections, body }) => {
-    const { hero } = sections;
+    const { hero, gallery } = sections;
     return (
         <>
             <Hero data={hero} />
@@ -26,6 +27,7 @@ export const AboutPage = ({ sections, body }) => {
                     </div>
                 </div>
             </section>
+            <Gallery data={gallery} />
         </>
     );
 };

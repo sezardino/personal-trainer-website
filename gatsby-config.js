@@ -55,6 +55,13 @@ module.exports = {
                 modulePath: `${__dirname}/src/cms/cms.js`,
             },
         },
+        {
+            resolve: `gatsby-plugin-portal`,
+            options: {
+                key: "portal",
+                id: "portal",
+            },
+        },
         "gatsby-plugin-netlify",
     ],
 };

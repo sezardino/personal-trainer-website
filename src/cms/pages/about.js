@@ -1,5 +1,6 @@
 import seo from "../parts/seo";
 import hero from "../parts/sections/hero";
+import gallery from "../parts/sections/gallery";
 import defaultPage from "../parts/defaultCollection";
 
 const page = {
@@ -21,7 +22,7 @@ const page = {
             name: "sections",
             widget: "object",
             required: false,
-            fields: [hero],
+            fields: [hero, gallery],
         },
         {
             label: "Body",

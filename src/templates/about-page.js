@@ -5,7 +5,7 @@ import Layout from "../components/layouts/default";
 
 const AboutPage = ({ data }) => {
     const { seo, sections } = data.markdownRemark.frontmatter;
-    const body = data.markdownRemark.html
+    const body = data.markdownRemark.html;
 
     return (
         <Layout seo={seo}>
@@ -39,6 +39,19 @@ const query = graphql`
                                     src
                                 }
                             }
+                        }
+                        title
+                    }
+                    gallery {
+                        list {
+                            image {
+                                childImageSharp {
+                                    fluid(quality: 100) {
+                                        src
+                                    }
+                                }
+                            }
+                            name
                         }
                         title
                     }
