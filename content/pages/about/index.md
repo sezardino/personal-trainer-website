@@ -2,12 +2,12 @@
 templateKey: about-page
 seo:
   title: O mnie
-  description: coś o mnie
+  description: Zapoznajmy się bliżej
   image: about-hero.png
 sections:
   hero:
     title: O mnie
-    description: moja mała historja
+    description: Zapoznajmy się bliżej
     image: about-hero.png
   blog:
     title: ostatnie wpisy
@@ -32,3 +32,4 @@ sections:
 
       Pracuje z ludźmi którzy wiedzą czego chcą. Zmienić swój styl życia, sylwetkę, wdrążyć w swóje życie prawidłowych nawyków.
 ---
+Jestem sertyfikowanym trenerem personalnym I doradcą żywieniowym. Moją pasją jest sport. Pierwszy trening na siłowni obudził we mnie głód wiedzy i głębszego podejścia w tym kierunku. Sprawdzałem na siebie wiele teorii s zakresu ćwiczeń i odżywiania, porady popularnych kulturystów, najnowsze badania dotyczące ludzkiego ciała co pozwoliło mi stworzyć fundament wiedzy który jest skuteczny w praktyce. W codziennym życiu nie mogę bez aktywności rower/rolki/wycieczki. Lubię zwiedzać nowe miejsca, wybierać się w góry. Pracuje z ludźmi którzy wiedzą czego chcą. Zmienić swój styl życia, sylwetkę, wdrążyć w swóje życie prawidłowych nawyków.
