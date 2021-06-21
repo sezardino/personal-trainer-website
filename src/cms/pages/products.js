@@ -1,4 +1,4 @@
-import blog from "../parts/sections/blog";
+import offer from "../parts/sections/offer";
 import hero from "../parts/sections/hero";
 import seo from "../parts/seo";
 import defaultPage from "../parts/defaultCollection";
@@ -22,7 +22,7 @@ const page = {
             name: "sections",
             widget: "object",
             required: false,
-            fields: [hero, blog],
+            fields: [hero, offer],
         },
     ],
 };
