@@ -103,9 +103,12 @@
 }
 
 .hero--post {
+    padding-top: 218px;
     .hero {
         &__title {
             font-weight: 400;
+            font-size: 5rem;
+            line-height: 6rem;
             max-width: 1000px;
         }
     }

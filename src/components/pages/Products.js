@@ -1,14 +1,14 @@
 import React from "react";
 
 import Hero from "../sections/hero";
-import Blog from "../sections/blog";
+import Offer from "../sections/offer";
 
 export const ProductsPage = ({ sections }) => {
-    const { hero, blog } = sections;
+    const { hero, offer } = sections;
     return (
         <>
             <Hero data={hero} />
-            <Blog data={blog} />
+            <Offer data={offer} />
         </>
     );
 };

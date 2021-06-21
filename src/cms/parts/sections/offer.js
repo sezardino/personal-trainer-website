@@ -18,12 +18,6 @@ const hero = {
             widget: "text",
             required: false,
         },
-        {
-            label: "Background image",
-            name: "image",
-            widget: "image",
-            required: false,
-        },
         button,
         {
             label: "List of offers",

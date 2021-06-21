@@ -8,7 +8,6 @@ export const PostPage = ({ data }) => {
     const heroProps = {
         title,
         image: thumbnail,
-        description: excerpt,
     };
     return (
         <>

@@ -1,0 +1,144 @@
+.offer {
+    padding-bottom: 90px;
+
+    @include breakpoint-up("lg") {
+        padding-bottom: 160px;
+    }
+    &__container {
+        background-color: white;
+        position: relative;
+        top: -40px;
+    }
+
+    &__wrapper {
+        max-width: 1040px;
+        margin: 0 auto;
+
+        padding-top: 50px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 40px;
+        @include breakpoint-up("md") {
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 140px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &:not(:nth-child(2n)) {
+            border-right: 1px solid #cdcdcd;
+        }
+        @include breakpoint-up("md") {
+            &:not(:nth-child(4n)) {
+                border-right: 1px solid #cdcdcd;
+            }
+        }
+    }
+
+    &__item-title {
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+
+        width: min-content;
+        text-align: center;
+        margin: 0 auto;
+
+        color: #d68629;
+
+        @include breakpoint-up("md") {
+            font-size: 2rem;
+            line-height: 2.4rem;
+        }
+    }
+
+    &__item-price {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.4rem;
+
+        text-align: center;
+        letter-spacing: 0.05rem;
+
+        color: #d68629;
+
+        @include breakpoint-up("md") {
+            font-size: 2.7rem;
+            line-height: 3.3rem;
+        }
+    }
+
+    &__sub-list {
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+        margin-left: 50px;
+    }
+
+    &__sub-item {
+        font-weight: 300;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+
+        letter-spacing: 0.04rem;
+
+        color: #595959;
+
+        position: relative;
+
+        @include breakpoint-up("md") {
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+        }
+
+        &:before {
+            content: url("../img/check.svg");
+            margin-right: 10px;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 14px;
+        }
+    }
+
+    &__description {
+        margin-top: 60px;
+
+        font-weight: 300;
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+
+        text-align: center;
+        letter-spacing: 0.04rem;
+
+        @include breakpoint-up("lg") {
+            margin-top: 130px;
+
+            font-size: 1.6rem;
+            line-height: 2.9rem;
+        }
+    }
+
+    &__button {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include breakpoint-up("lg") {
+            margin-top: 90px;
+            margin-right: initial;
+        }
+    }
+}
