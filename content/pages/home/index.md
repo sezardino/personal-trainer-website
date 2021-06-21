@@ -3,12 +3,12 @@ templateKey: index-page
 seo:
   title: Główna
   description: Jestem Bob, zawsze dam rady.
-  image: img-og.png
+  image: main-hero.png
 sections:
   hero:
     title: Robert Arechwa
     description: trener personalny
-    image: home-bg.jpg
+    image: main-hero.png
   about:
     title: dlaczego ja
     description: "Если ты сомневаешься, или не уверен какого тренера нужно выбрать и
