@@ -11,19 +11,14 @@ sections:
     image: main-hero.png
   about:
     title: dlaczego ja
-    description: "Если ты сомневаешься, или не уверен какого тренера нужно выбрать и
-      при этом попал на мою страницу, можешь быть уверен что я (могу
-      гарантировать что со мной):"
-    descriptionList:
-      - "Pełne zaangażowanie podczas treningu "
-      - Tylko skuteczne cwiczenia
-      - Zapisywanie każdego treningu
-      - "Punktualność "
-      - "Koncentracja na twoich celach "
-      - "Miła atmosfera podczas zajęć "
-      - "Trening dostosowany do twoich możliwości "
-      - "Komfort i bezpieczeństwo "
-      - Opieka dietetyczna
+    description: >
+      Если ты сомневаешься, или не уверен какого тренера нужно выбрать и при
+      этом попал на мою страницу, можешь быть уверен что со мной ты получишь
+      Pełne zaangażowanie podczas treningu,mTylko skuteczne
+      cwiczenia,mZapisywanie każdego treningu,Punktualność
+       Koncentracja na  dietetyczna rening dostosowany do twoich możliwości
+      Komfort bezpieczeństwo
+    descriptionList: []
     label: więcej o mnie
     image: about.png
     button:
