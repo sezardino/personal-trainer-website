@@ -6,4 +6,5 @@ contactData:
   facebook: https://facebook.com
   instagram: https://instagram.com
   vk: https://vk.com
+  whatsapp: https://www.whatsapp.com/?lang=pl
 ---
