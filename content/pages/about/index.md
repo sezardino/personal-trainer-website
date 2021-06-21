@@ -2,12 +2,12 @@
 templateKey: about-page
 seo:
   title: O mnie
-  description: coś o mnie
+  description: Zapoznajmy się bliżej
   image: about-hero.png
 sections:
   hero:
     title: O mnie
-    description: moja mała historja
+    description: Zapoznajmy się bliżej
     image: about-hero.png
   blog:
     title: ostatnie wpisy
