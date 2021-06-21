@@ -33,6 +33,9 @@ sections:
       - image: time.svg
         name: Elastyczne godziny treningów
         description: Elastyczne godziny treningów
+      - name: Plan treningowy
+        description: Napisanie indywidualnego programu treningowego
+        image: training-course.svg
       - image: diet.svg
         name: Plan żywieniowy
         description: Napisanie indywidualnego planu żywieniowego
