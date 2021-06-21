@@ -25,7 +25,7 @@ sections:
       - "Komfort i bezpieczeństwo "
       - Opieka dietetyczna
     label: więcej o mnie
-    image: trener.png
+    image: about.png
     button:
       label: Wiecej
       link: /about
