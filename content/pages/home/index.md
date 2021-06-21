@@ -27,22 +27,22 @@ sections:
   services:
     title: proponuje ci
     list:
-      - image: boots.svg
+      - image: ""
         name: Normalny trening
         description: "Prowadzenie treningu u ciebie w domu/na siłowni, albo na podwurku "
-      - image: trening.svg
+      - image: ""
         name: Trening online
         description: Prowadzenie trening online
-      - image: diet.svg
+      - image: ""
         name: Plan żywieniowy
         description: Napisanie indywidualnego planu żywieniowego
-      - image: size.svg
+      - image: ""
         name: Program dieteczny
         description: Prowadzenie I wsparcie dietetyczne
-      - image: heart.svg
+      - image: ""
         name: Szkolenie z produktów
         description: Szkolenie odnośnie wyboru produktów zywienia
-      - image: trening-plan.svg
+      - image: ""
         name: Plan treningoowy
         description: Napisanie indywidualnego programu treningowego
   blog:
