@@ -39,6 +39,12 @@ const commonData = {
                     required: false,
                 },
                 { label: "VK", name: "vk", widget: "string", required: false },
+                {
+                    label: "WhatsApp",
+                    name: "whatsapp",
+                    widget: "string",
+                    required: false,
+                },
             ],
         },
     ],

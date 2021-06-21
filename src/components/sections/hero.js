@@ -33,14 +33,15 @@ const Hero = ({ data, extraClass }) => {
                 </span>
             </h1>
         );
-    } else if(extraClass === "post") {
+    } else if (extraClass === "post") {
         titleTemplate = (
             <>
                 <h1 className="hero__title">{title}</h1>
                 <p className="hero__title-line hero__title-line--last">
                     {description}
                 </p>
-            </>)
+            </>
+        );
     } else {
         titleTemplate = (
             <>
@@ -52,7 +53,8 @@ const Hero = ({ data, extraClass }) => {
         );
     }
 
-    const gradient = 'linear-gradient(180deg, rgba(0,0,0,0.5606617647058824) 0%, rgba(0,0,0,0.4290091036414566) 100%)';
+    const gradient =
+        "linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))";
 
     return (
         <section
