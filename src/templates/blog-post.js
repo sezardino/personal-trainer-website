@@ -30,7 +30,6 @@ const query = graphql`
                 }
                 title
                 excerpt
-                date(formatString: "ll")
                 thumbnail {
                     childImageSharp {
                         fluid(quality: 100) {

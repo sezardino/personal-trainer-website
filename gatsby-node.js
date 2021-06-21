@@ -80,6 +80,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
     if (node.internal.type === `MarkdownRemark`) {
         let value = createFilePath({ node, getNode });
+        console.log(value);
         if (value.includes("/pages/")) {
             value = value.replace("/pages", "");
         } else {

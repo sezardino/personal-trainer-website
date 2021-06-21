@@ -19,7 +19,6 @@ export const BlogPage = ({ data }) => {
                         const postData = {
                             title: node.frontmatter.title,
                             excerpt: node.frontmatter.excerpt,
-                            date: node.frontmatter.date,
                             thumbnail: node.frontmatter.thumbnail,
                             slug: node.fields.slug,
                         };
