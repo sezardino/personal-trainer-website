@@ -3,12 +3,12 @@ templateKey: about-page
 seo:
   title: O mnie
   description: coś o mnie
-  image: trener.png
+  image: about-hero.png
 sections:
   hero:
     title: O mnie
     description: moja mała historja
-    image: home-bg.jpg
+    image: about-hero.png
   blog:
     title: ostatnie wpisy
     label: zobacz wiecej
