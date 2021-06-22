@@ -41,6 +41,11 @@
     }
 
     &__item {
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.8;
+        }
     }
 
     &__item-title {

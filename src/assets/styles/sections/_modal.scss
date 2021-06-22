@@ -23,9 +23,27 @@
     &__inner {
         margin: auto;
         z-index: 2;
+
+        background-color: white;
+
+        border: 5px solid white;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     &__title {
+        margin-top: 10px;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        font-weight: 600;
+
+        @include breakpoint-up("lg") {
+            margin-top: 20px;
+            font-size: 2rem;
+            line-height: 2.2rem;
+        }
     }
 
     &__img {

@@ -85,6 +85,11 @@
         margin-bottom: 25px;
 
         margin-left: 50px;
+
+        @include breakpoint-up('lg') {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
     }
 
     &__sub-item {
