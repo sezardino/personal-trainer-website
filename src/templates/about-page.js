@@ -5,10 +5,11 @@ import Layout from "../components/layouts/default";
 
 const AboutPage = ({ data }) => {
     const { seo, sections } = data.markdownRemark.frontmatter;
+    const body = data.markdownRemark.html;
 
     return (
         <Layout seo={seo}>
-            <AboutTemplate sections={sections} />
+            <AboutTemplate sections={sections} body={body} />
         </Layout>
     );
 };
@@ -16,6 +17,7 @@ const AboutPage = ({ data }) => {
 const query = graphql`
     query {
         markdownRemark(fileAbsolutePath: { regex: "/about/" }) {
+            html
             frontmatter {
                 seo {
                     description
@@ -40,24 +42,17 @@ const query = graphql`
                         }
                         title
                     }
-                    about {
-                        title
-                        description
-                        descriptionList
-                        button {
-                            label
-                            link
-                        }
-                        image {
-                            childImageSharp {
-                                fluid(quality: 100) {
-                                    src
+                    gallery {
+                        list {
+                            image {
+                                childImageSharp {
+                                    fluid(quality: 100) {
+                                        src
+                                    }
                                 }
                             }
+                            name
                         }
-                    }
-                    blog {
-                        label
                         title
                     }
                 }

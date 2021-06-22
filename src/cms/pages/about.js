@@ -1,7 +1,6 @@
 import seo from "../parts/seo";
 import hero from "../parts/sections/hero";
-import about from "../parts/sections/about";
-import blog from "../parts/sections/blog";
+import gallery from "../parts/sections/gallery";
 import defaultPage from "../parts/defaultCollection";
 
 const page = {
@@ -23,7 +22,14 @@ const page = {
             name: "sections",
             widget: "object",
             required: false,
-            fields: [hero, about, blog],
+            fields: [hero, gallery],
+        },
+        {
+            label: "Body",
+            name: "body",
+            widget: "markdown",
+            default: "",
+            required: false,
         },
     ],
 };

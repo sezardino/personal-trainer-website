@@ -1,14 +1,16 @@
 import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 
-import instagram from "../../assets/img/inst.svg";
-import facebook from "../../assets/img/f.svg";
+import instagram from "../../assets/img/instagram.svg";
+import facebook from "../../assets/img/facebook.svg";
 import vk from "../../assets/img/vk.svg";
+import whatsapp from "../../assets/img/whatsapp.svg";
 
 const SOCIAL_ICONS = {
     instagram,
     facebook,
     vk,
+    whatsapp,
 };
 
 const query = graphql`
@@ -19,6 +21,7 @@ const query = graphql`
                     facebook
                     instagram
                     vk
+                    whatsapp
                 }
             }
         }

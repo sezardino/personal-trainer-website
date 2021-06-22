@@ -1,0 +1,55 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 3;
+
+    display: none;
+
+    background-color: rgba($color: #000000, $alpha: 0.8);
+
+    &__overflow {
+        width: 100%;
+        height: 100%;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &__inner {
+        margin: auto;
+        z-index: 2;
+
+        background-color: white;
+
+        border: 5px solid white;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        margin-top: 10px;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        font-weight: 600;
+
+        @include breakpoint-up("lg") {
+            margin-top: 20px;
+            font-size: 2rem;
+            line-height: 2.2rem;
+        }
+    }
+
+    &__img {
+    }
+}
+
+.modal--show {
+    display: flex;
+}

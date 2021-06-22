@@ -63,7 +63,6 @@ const query = graphql`
                     frontmatter {
                         title
                         excerpt
-                        date(formatString: "ll")
                         thumbnail {
                             childImageSharp {
                                 fluid(quality: 100, maxHeight: 290) {

@@ -18,7 +18,6 @@ const query = graphql`
                     frontmatter {
                         title
                         excerpt
-                        date(formatString: "ll")
                         thumbnail {
                             childImageSharp {
                                 fluid(quality: 100, maxHeight: 290) {
@@ -47,7 +46,6 @@ const Blog = ({ data }) => {
                         const postData = {
                             title: node.frontmatter.title,
                             excerpt: node.frontmatter.excerpt,
-                            date: node.frontmatter.date,
                             thumbnail: node.frontmatter.thumbnail,
                             slug: node.fields.slug
                         };

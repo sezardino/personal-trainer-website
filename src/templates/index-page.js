@@ -5,6 +5,7 @@ import Layout from "../components/layouts/default";
 import HomePage from "../components/pages/Home";
 
 const IndexPage = ({ data }) => {
+    console.log(data);
     const { sections, seo } = data.markdownRemark.frontmatter;
     return (
         <Layout seo={seo} isHome={true}>
@@ -42,7 +43,6 @@ const query = graphql`
                     }
                     about {
                         description
-                        descriptionList
                         button {
                             label
                             link
@@ -54,8 +54,6 @@ const query = graphql`
                                 }
                             }
                         }
-                        label
-                        title
                     }
                     services {
                         list {

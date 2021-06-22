@@ -6,7 +6,7 @@
     }
 
     @include breakpoint-up("lg") {
-        padding-top: 100px;
+        padding-top: 60px;
     }
 
     &__container {
@@ -22,7 +22,19 @@
 
     &__description {
         width: 100%;
-        max-width: 700px;
+        max-width: 670px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        order: 1;
+        @include breakpoint-up("lg") {
+            order: 2;
+        }
+        @include breakpoint-up("fhd") {
+            max-width: 750px;
+        }
     }
 
     &__description-list {
@@ -77,40 +89,37 @@
         color: var(--main-fc);
 
         @include breakpoint-up("sm") {
-            font-size: 1.5rem;
-            line-height: 1.9rem;
+            font-size: 1.4rem;
+            line-height: 2.1rem;
         }
 
         @include breakpoint-up("lg") {
-            margin-top: 30px;
+            margin-top: 40px;
         }
     }
 
     &__button {
-        margin-top: 30px;
-
-        @include breakpoint-up("lg") {
-            margin-top: 60px;
-        }
+        margin-top: 60px;
     }
 
     &__image-wrapper {
         margin-top: 40px;
 
-        width: 100%;
-        max-width: 230px;
-        min-height: 350px;
-
+        order: 2;
+        // width: 100%;
+        // max-width: 230px;
+        // min-height: 350px;
         @include breakpoint-up("sm") {
-            max-width: 340px;
-            min-height: 500px;
+            // max-width: 340px;
+            // min-height: 500px;
         }
         @include breakpoint-up("lg") {
             margin-top: 0;
+            order: 1;
         }
         @include breakpoint-up("fhd") {
-            max-width: 400px;
-            min-height: 600px;
+            // max-width: 400px;
+            // min-height: 600px;
         }
     }
 }

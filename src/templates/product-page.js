@@ -45,6 +45,21 @@ const query = graphql`
                             }
                         }
                     }
+                    offer {
+                        button {
+                            label
+                            link
+                        }
+                        description
+                        list {
+                            list {
+                                item
+                            }
+                            name
+                            price
+                        }
+                        title
+                    }
                 }
             }
         }

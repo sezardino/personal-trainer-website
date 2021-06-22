@@ -12,14 +12,13 @@ export const BlogPage = ({ data }) => {
     return (
         <>
             <Hero data={hero} />
-            <section className="container">
+            <section className="blog-page container">
                 <h2 className="hidden">Posty</h2>
                 <ul className="blog__list">
                     {posts.map(({ node }) => {
                         const postData = {
                             title: node.frontmatter.title,
                             excerpt: node.frontmatter.excerpt,
-                            date: node.frontmatter.date,
                             thumbnail: node.frontmatter.thumbnail,
                             slug: node.fields.slug,
                         };
