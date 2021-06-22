@@ -9,7 +9,7 @@ thumbnail: food.jpg
 date: 2021-06-26T22:00:00.000Z
 excerpt: jedzenie a odchudzanie
 ---
-Odwieczne pytanie ludzi, którzy chcą zrzucić zbędny tłuszcz.
+## Odwieczne pytanie ludzi, którzy chcą zrzucić zbędny tłuszcz.
 
 Po pierwsze- na pewno zdrowo! Nie oszukujmy się- nie ma żadnych fit produktów, ani cudownych sposobów na zrzucenie kilogramów! Racjonalne odżywianie oraz odpowiednio zbilansowana dieta da nam najlepsze i trwałe efekty. Żadne cudowne diety kapuściane, czy Atkinsa nie dadzą nam długotrwałych rezultatów. W tego typu dietach dochodzi do sporych niedoborów składników odżywczych, witamin oraz minerałów co bardzo negatywnie wpływa na nasz stan zdrowia. Wypadające włosy, słabe paznokcie, gorsze samopoczucie- to nie jest racjonalne, ani zdrowe! W wielu przypadkach waga zostanie zredukowana, tylko nie zdajemy sobie sprawy jak dużym kosztem to się dzieje….Więc na pierwszym miejscu należy postawić swoje zdrowie. Dopiero później powinniśmy myśleć o zrzuceniu kilogramów.
 
