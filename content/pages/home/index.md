@@ -11,16 +11,6 @@ sections:
     image: main-hero.png
   about:
     title: dlaczego ja
-    description: >-
-      Pomagam osobą, które chcą zmienić tryb życia.
-
-      Na swoich treningach/konsultacjach dziele się wiedzą na temat zdrowego odżywiania, suplementacją, ucze techniki wykonania ćwiczeń, prawidłowego oddechu i pomagam w innych tematach.
-
-
-      Układam plany treningowe, które można wykonywać w domu, na świeżym powietrzu oraz w siłowni publicznej, albo mogę poprowadzić zajęcie online.
-
-
-      Wydaje Ci się, że nie dasz rady? Nie wiesz jak się za to zabrać lub masz kilka nieudanych prób za sobą to JA pokaże Ci, że damy radę, dostostuje plany w zgodzie z Tobą, tak aby nie była to przygoda na chwilę a zmiana stylu życia z której będziesz dumny/a.
     label: więcej o mnie
     image: about.png
     button:
