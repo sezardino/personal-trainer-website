@@ -17,6 +17,7 @@ export const AboutPage = ({ sections, body }) => {
                             dangerouslySetInnerHTML={{
                                 __html: body,
                             }}
+                            className="typography"
                         ></div>
                         <Link
                             to="/contact"

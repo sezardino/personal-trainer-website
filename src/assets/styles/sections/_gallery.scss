@@ -11,7 +11,7 @@
     }
 
     &__title {
-        font-weight: 800;
+        font-weight: 400;
         font-size: 3rem;
         line-height: 3.7rem;
 
@@ -23,6 +23,10 @@
         @include breakpoint-up("lg") {
             font-size: 5rem;
             line-height: 6rem;
+        }
+
+        &-frst {
+            font-weight: 700;
         }
     }
 

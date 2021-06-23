@@ -15,7 +15,7 @@ export const PostPage = ({ data }) => {
             <section className="container post">
                 <h2 className="hidden">{title}</h2>
                 <div
-                    className="post__content"
+                    className="post__content typography"
                     dangerouslySetInnerHTML={{
                         __html: data.markdownRemark.html,
                     }}

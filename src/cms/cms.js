@@ -7,9 +7,9 @@ CMS.init({
     config: {
         load_config_file: false,
         backend: {
-            name: "git-gateway",
+            name: "github",
             branch: "master",
-            repo: "arechwa/personal-trainer-website",
+            repo: "sezardino/personal-trainer-website",
         },
         commit_messages: {
             create: "Create {{collection}} “{{slug}}”",
@@ -18,7 +18,7 @@ CMS.init({
             uploadMedia: "[skip ci] Upload “{{path}}”",
             deleteMedia: "[skip ci] Delete “{{path}}”",
         },
-        publish_mode: "editorial_workflow",
+        // publish_mode: "editorial_workflow",
         media_folder: "static/img",
         public_folder: "/img",
         collections: [services, pages, posts],
