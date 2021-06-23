@@ -15,7 +15,7 @@ Ucząc się nowych rzeczy mamy zasadniczo dwie możliwości rozwoju: szukanie wi
 
 Samo posiadanie wiedzy nie sprawi, że osiągniesz wyznaczony cel. Daną wiedzę trzeba umieć umiejętnie wykorzystać i wdrożyć. Dodatkowo wiele mitów związanych z dietami i treningami w niektórych przypadkach może okazać się niebezpieczne, dlatego warto zaufać profesjonalistom. To właśnie instruktor pomoże Ci osiągnąć wyznaczony cel przy zachowaniu bezpieczeństwa i zdrowia.
 
-### Współpraca z trenerem osobistym
+### Współpraca z trenerem personalnym
 
 Głównym zadaniem instruktora jest realizacja indywidualnego planu podopiecznego, który oparty jest o dokładny wywiad zawierający wszystkie istotne informacje o osobie trenującej.
 
@@ -44,6 +44,6 @@ Plan treningowy nadal jest przygotowany przez trenera, jednak to podopieczny w o
 
 * mają silną motywację do samodzielnych treningów;
 * potrafią w odpowiedni sposób wykonywać dane ćwiczenia;
-* potrzebują jedynie okazjonalnej konsultacji z trenerem osobistym.
+* potrzebują jedynie okazjonalnej konsultacji z trenerem personalnym.
 
 Znając swoje predyspozycje warto wybrać najlepszą jak dla nas formę współpracy.
