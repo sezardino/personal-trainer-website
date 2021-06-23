@@ -11,12 +11,13 @@ sections:
     image: main-hero.png
   about:
     title: dlaczego ja
-    description: "Jeżeli się wachasz, albo nie jesteś pewien jakiego trenera wybrać
-      i przy tym jesteś na mojej stronię To możesz być pewien że ze mną
-      otrzymasz: pełne zaangażowanie podczas treningu, tylko skuteczne
-      cwiczenia, zapisywanie każdego treningu, punktualność, koncentracje,
-      porady dietetycznę, trening dostosowany do twoich możliwości i potrzeb,
-      komfort i bezpieczeństwo"
+    description: >-
+      Pomagam osobą, które chcą zmienić tryb życia.
+
+      Na swoich treningach/konsultacjach dziele się wiedzą na temat zdrowego odżywiania, suplementacją, ucze techniki wykonania ćwiczeń, prawidłowego oddechu i pomagam w innych tematach.
+
+
+      Układam plany treningowe, które można wykonywać w domu, na świeżym powietrzu oraz w siłowni publicznej, albo mogę poprowadzić zajęcie online.
     label: więcej o mnie
     image: about.png
     button:
