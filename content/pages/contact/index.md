@@ -9,8 +9,7 @@ seo:
 sections:
   contact:
     title: kontakt
-    description: Skontaktuj się ze mna i coś tam jeszcze będzie napisane jeszcze
-      będzie napisane jeszcze będzie napisane.
+    description: Masz pytania? Napisz lub zadzwoń do mnie, chętnie odpowiem na Twoje pytania
     label: wyslij wiadomość
     susses-label: Twoja wiadomość została wysłana
     error-label: UUPS! Coś poszło nie tak
