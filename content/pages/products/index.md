@@ -14,7 +14,12 @@ sections:
     label: zobacz wiecej
   offer:
     title: Co proponuje
-    description: Przyjeżdżam że swoim sprzętem. (gumy, gymstick, step, skakanka, mata ).
+    description: >-
+      Jeżeli wybierzecie trening u siebie w domu, albo na podwórku, przyjade że
+      swoim sprzętem. (gumy, gymstick, step, skakanka, mata ).
+
+
+      Macie pytania, skontaktuj się ze mną, z chęcią odpowiem na Twoje pytania
     button:
       label: skontaktuj się ze mną
       link: /contact
