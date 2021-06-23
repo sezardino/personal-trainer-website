@@ -23,7 +23,7 @@
 
     &__item {
         &:not(&:last-child) {
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             @include breakpoint-up("lg") {
                 margin-right: 25px;
                 margin-bottom: 0;
@@ -32,6 +32,7 @@
     }
 
     &__link {
+        padding: 5px;
         &:hover,
         &:active,
         &:focus {
