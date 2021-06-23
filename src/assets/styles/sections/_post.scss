@@ -77,6 +77,10 @@
     ul,
     ol {
         padding-left: 40px;
+        
+        &:not(:last-child) {
+            margin-bottom: 20px
+        }
     }
 
     ul {
