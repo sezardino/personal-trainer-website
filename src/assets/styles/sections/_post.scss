@@ -1,9 +1,15 @@
 .post {
-    padding: 150px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-weight: 300;
     font-size: 1.7rem;
     line-height: 3.3rem;
 
+    @include breakpoint-up('lg') {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    
     h1,
     h2,
     h3,
