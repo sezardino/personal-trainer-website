@@ -32,7 +32,7 @@
     }
 
     &--open {
-      height: 175px;
+      height: 240px;
       @include breakpoint-up("lg") {
         height: initial;
       }
