@@ -15,7 +15,7 @@ excerpt: Treningi online
 
 ### Zalety treningu personalnego online
 
-Trening personalny online oczywiście nie zakłada żadnego kontaktu face to face z naszym coachem. Nie oznacza to jednak, iż po otrzymaniu planu treningowego jesteśmy pozostawieni sami sobie. Współpraca online polega na ciągłym kontakcie mailowym bądź telefonicznym z trenerem. Wstępna szczegółowa rozmowa oraz ciągłe monitorowanie postępów trenującego zapewniają stałą opiekę nad całym procesem treningowym. Dla wielu osób trening personalny online to brak stresu związanego z fizyczną obecnością trenera przy zachowaniu jednoczesnej kontroli ze strony coacha. Poza tym treningi wykonujemy wtedy, gdy mamy taką możliwość, a to z kolei spora zaleta dla osób ceniących sobie niezależność.
+Trening personalny online oczywiście nie zakłada żadnego kontaktu face to face z naszym trenerem. Nie oznacza to jednak, iż po otrzymaniu planu treningowego jesteśmy pozostawieni sami sobie. Współpraca online polega na ciągłym kontakcie mailowym bądź telefonicznym z trenerem. Wstępna szczegółowa rozmowa oraz ciągłe monitorowanie postępów trenującego zapewniają stałą opiekę nad całym procesem treningowym. Dla wielu osób trening personalny online to brak stresu związanego z fizyczną obecnością trenera przy zachowaniu jednoczesnej kontroli ze strony trenera. Poza tym treningi wykonujemy wtedy, gdy mamy taką możliwość, a to z kolei spora zaleta dla osób ceniących sobie niezależność.
 
 #### Do głównych zalet treningów online zaliczamy:
 
@@ -24,8 +24,6 @@ Trening personalny online oczywiście nie zakłada żadnego kontaktu face to fac
 * wygodę
 * niezależność
 * stały kontakt z trenerem
-
-Możliwości współpracy online z trenerem personalnym
 
 ### Jakie są trzy podstawowe możliwości nawiązania współpracy z trenerem personalnym online?
 
