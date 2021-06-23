@@ -24,7 +24,7 @@ Potrzebujesz zjeść mniej kalorii niż potrzebuje Twoje ciało. Jeśli jesteś 
 
 Jeśli chodzi o bilans kaloryczny to możemy na niego wpływać na dwa sposoby:
 
-1.  poprzez aktywność fizyczną, czyli im więcej się ruszamy tym nasze zapotrzebowanie wzrasta
+1. poprzez aktywność fizyczną, czyli im więcej się ruszamy tym nasze zapotrzebowanie wzrasta
 2. poprzez odżywianie tj. jeść mniej niż potrzebuje nasze ciało. 
 
 W odpowiedni sposób, kontrolując ilość spożywanych kalorii możemy\
@@ -34,16 +34,16 @@ zrzucić nadprogramowe kilogramy. Nie ma żadnych cudów, które sprawią, że s
 
 Wyróżniamy trzy podstawowe makroskładniki takie jak: białka, tłuszcze oraz węglowodany. Ich odpowiednia proporcja jest kluczowa, aby zgubić kilogramy.
 
-#### Białko 
+#### Białko
 
 Białko znajdziemy w takich produktach jak mięso, jaja, orzechy, odżywki białkowe, nabiał. Jest ono kluczowym budulcem naszego ciała. To ważny składnik naszych mięśni, hormonów, kości oraz innych tkanek naszego organizmu. Białka są swego rodzaju „cegiełkami” w naszym ciele- 1 gram to 4 kcal!
 
-#### Tłuszcz 
+#### Tłuszcz
 
 Tłuszcz kojarzy się nam tylko z tym widocznym na brzuszku, jednak spełnia on wiele ważnych funkcji w naszym ciele! Jest doskonałym źródłem energii oraz ważnym składnikiem naszych błon komórkowych i hormonów. Nasz mózg w zdecydowanej większości składa się właśnie z tłuszczu. Bez niego nie bylibyśmy\
 w stanie normalnie funkcjonować- 1 gram to 9 kcal!
 
-#### Węglowodany 
+#### Węglowodany
 
 Węglowodany są najprostszą i najlepiej przyswajalną formą energii. Znajdziemy je w ryżu, kaszach, chlebie, produktach mącznych, ciastkach, słodyczach, napojach słodzonych i wielu podobnych produktach. Bardzo często to właśnie jego nadwyżka będzie powodowała nadmierne gromadzenie się w organizmie\
 tkanki tłuszczowej, a nie jak się powszechnie uważa- tłuszcz! 1 gram węglowodanów to 4 kcal!
@@ -53,5 +53,7 @@ tkanki tłuszczowej, a nie jak się powszechnie uważa- tłuszcz! 1 gram węglow
 Każdy z tych makroskładników jest niezwykle istotny dla naszego organizmu, więc powinniśmy zadbać o ich odpowiedni stosunek względem siebie. Żadnego nie powinno zabraknąć w naszej diecie. Szczególnie w dietach odchudzających zaleca się większe spożycie białka, a mniejsze węglowodanów. Dietę powinniśmy jednak układać indywidualnie w zależności od osoby, jej potrzeb, stylu życia czy nawet schorzeń!
 
 ### Czy istnieje magiczny narzędzie do zrzucenia tłuszczu?
+
+![magic pills](sharon-mccutcheon-fepfs43yipe-unsplash.jpg "magic pills")
 
 Pewnie Cię zmartwię, ale nie tylko te rzeczy o których wspomniałem wyżej dadzą Ci długotrwały, dobry, pożądany efekt. Każdy kto Ci powie, że taki sposób istnieje prawdopodobnie kłamie i będzie Ci wciskał i polecał cudowne diety czy produkty. Prawda jest jednak taka, że nie potrzebujesz niczego specjalnego, aby osiągnąć swój zamierzony cel. Najważniejsza jest konsekwencja, systematyczność oraz trochę cierpliwości, a pożądany efekt w końcu przyjdzie ! Upewnij się tylko, że wszystko dobrze zaplanowałeś!
