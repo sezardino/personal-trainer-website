@@ -30,7 +30,7 @@ sections:
           - item: porady dietetycznę
         price: 100 zł
       - name: 10 treningów
-        price: 950 zł
+        price: 700 zł
         list:
           - item: co i w 1 treningu +
           - item: pomiar z każdego treningu
