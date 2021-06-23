@@ -12,7 +12,19 @@ const about = {
             widget: "string",
             required: false,
         },
-        { label: "Description", name: "description", widget: "text" },
+        {
+            label: "Description",
+            name: "description",
+            widget: "list",
+            fields: [
+                {
+                    label: "Paragraph",
+                    name: "paragraph",
+                    widget: "string",
+                    required: false,
+                },
+            ],
+        },,
         button,
         {
             label: "Image",
