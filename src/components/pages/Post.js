@@ -4,7 +4,7 @@ import Hero from "../sections/hero";
 
 export const PostPage = ({ data }) => {
     console.log(data);
-    const { title, thumbnail, excerpt } = data.markdownRemark.frontmatter;
+    const { title, thumbnail } = data.markdownRemark.frontmatter;
     const heroProps = {
         title,
         image: thumbnail,

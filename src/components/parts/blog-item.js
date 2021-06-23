@@ -2,11 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 
 const BlogItem = ({ data }) => {
-    const { title, excerpt, thumbnail, slug } = data;
-
-    const excerptContent =
-        excerpt.length >= 300 ? `${excerpt.slice(0, 300)}...` : excerpt;
-
+    const { title, thumbnail, slug } = data;
     return (
         <article className="blog-item">
             <Link to={slug} className="blog-item__img-wrapper">
