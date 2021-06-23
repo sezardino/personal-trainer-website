@@ -2,13 +2,13 @@
 templateKey: product-page
 seo:
   title: Oferta
-  description: Jakaś oferta
-  image: img-og.png
+  description: Zapoznaj się z moją ofertą
+  image: og.jpg
 sections:
   hero:
     title: Oferta
-    description: Zobacz jakie pakiety albo usługo mogę ci zaproponować
-    image: home-bg.jpg
+    description: Zapoznaj się z moją ofertą
+    image: og.jpg
   blog:
     title: ostatnie wpisy
     label: zobacz wiecej
