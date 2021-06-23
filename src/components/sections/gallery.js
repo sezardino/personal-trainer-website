@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../parts/modal";
+import { stringFormatting } from "../../utils";
 
 const Gallery = ({ data }) => {
     const { list, title } = data;
@@ -19,7 +20,11 @@ const Gallery = ({ data }) => {
     return (
         <section className="gallery">
             <div className="gallery__container container">
-                <h2 className="gallery__title">{title}</h2>
+                <h2 className="gallery__title">
+                <span className="gallery__title-frst">
+                {stringFormatting.getFirstLetters(title)}
+                </span>
+                {stringFormatting.deleteFirstLetters(title)}</h2>
                 <ul className="gallery__list">
                     {list.map((item) => {
                         return (

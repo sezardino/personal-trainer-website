@@ -1,0 +1,105 @@
+.typography {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  h1 {
+    font-size: 29px;
+    line-height: 32px;
+  }
+
+  h2 {
+    font-size: 27px;
+    line-height: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  h4 {
+    font-size: 23px;
+    line-height: 26px;
+  }
+
+  h5 {
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  h6 {
+    font-size: 19px;
+    line-height: 12px;
+  }
+
+  a {
+    text-decoration-line: underline;
+    font-weight: 500;
+    color: #d68629;
+  }
+
+  strong {
+    font-weight: 900;
+  }
+
+  p {
+    color: #000000;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  ul,
+  ol {
+    padding-left: 40px;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  ul {
+    li {
+      list-style-type: disc;
+      padding-left: 10px;
+      &::marker {
+        font-weight: 900;
+        font-size: 1.9rem;
+        color: #d68629;
+      }
+    }
+  }
+
+  ol {
+    li {
+      list-style-type: auto;
+      padding-left: 15px;
+      &::marker {
+        color: #d68629;
+        font-weight: 900;
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+      }
+    }
+  }
+}

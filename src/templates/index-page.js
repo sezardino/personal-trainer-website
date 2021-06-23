@@ -42,7 +42,8 @@ const query = graphql`
                         title
                     }
                     about {
-                        description
+                        title
+                        desc
                         button {
                             label
                             link
