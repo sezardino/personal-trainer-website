@@ -17,6 +17,7 @@ const Seo = ({ data, isHome }) => {
                     name="google-site-verification"
                     content="-9i1BR1MqAdyrjdddRtvQEtXN1Xa9hPv1XyyJa2qXw8"
                 />
+             <meta name="google-site-verification" content="SqXlCDtJ0oLrTa6V_6NamAyj37zTZ7tLSZXNfUTQPPA" />
             )}
 
             <link
