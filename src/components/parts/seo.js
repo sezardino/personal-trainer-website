@@ -6,17 +6,20 @@ const Seo = ({ data, isHome }) => {
     const meta = useMeta();
     const { images } = meta;
 
+    const homeMeta = (
+        <meta
+            name="google-site-verification"
+            content="SqXlCDtJ0oLrTa6V_6NamAyj37zTZ7tLSZXNfUTQPPA"
+        />
+    );
+
     const title = data.title ? `${data.title} | ${meta.name}` : meta.name;
     return (
         <Helmet>
             <html lang="pl" />
             <title>{title}</title>
             <meta name="description" content={meta.description} />
-            {isHome && (
-             <>
-                <meta name="google-site-verification" content="SqXlCDtJ0oLrTa6V_6NamAyj37zTZ7tLSZXNfUTQPPA" />
-             </>
-            )}
+            {isHome && homeMeta}
 
             <link
                 rel="apple-touch-icon"
